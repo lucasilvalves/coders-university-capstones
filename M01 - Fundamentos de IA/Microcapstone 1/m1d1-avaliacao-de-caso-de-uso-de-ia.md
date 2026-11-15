@@ -1,24 +1,5 @@
----
-# yaml-language-server: $schema=schemas\deliverable.schema.json
-Module:
-    - M01 - Fundamentos de IA
-Deliverable Type: Microcapstone
-Status: In Progress
-Export Status: Draft
-Tech Stack:
-    - Usecase
-    - AI
-Creation date: "2026-11-07T23:07:47Z"
-Created by:
-    - Lucas
-Links:
-    - M01 - Fundamentos de IA
-Object type:
-    - Deliverable
-Cover image or color: bafyreiaf2hbfvohzgxfazsgpkcor3l5ex4eihnvm2vwzkkv6yqggfcfbhe
-id: bafyreigsik74nwkfvdvuoal4yfkzezw3g7sndv4byc4go3dodna4lkzzfu
----
-# M1D1 - Avaliação de Caso de Uso de IA   
+# M1D1 - Avaliação de Caso de Uso de IA
+> **Módulo:** Fundamentos de IA | **Entregável:** Microcapstone | **Stack:** Estratégia de IA, Casos de Uso, Governança
 ## **Projeto:** Automação da triagem de documentos e chamados logísticos em larga escala   
  --- 
 ### 1. Definição do Problema   
