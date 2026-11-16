@@ -1,0 +1,633 @@
+run_id,model,tier,incident_id,expected_category,incident_text,response,prompt_tokens,completion_tokens,latency_sec,estimated_cost_usd
+1,openai/gpt-oss-120b,Premium,INC01,Correspondência/Malote,O malote diário com documentos de abertura de conta da agência Sul não foi coletado no horário previsto das 16h.,"1. Negativo  
+2. Correspondência/Malote  
+3. O malote diário de documentos de abertura de conta da agência Sul não foi coletado às 16h, horário previsto.  
+4. Acionar imediatamente a transportadora responsável para recolher o malote, registrar a ocorrência e revisar o cronograma de coleta para evitar novos atrasos.",322,227,0.78,0.0001845
+2,openai/gpt-oss-120b,Premium,INC01,Correspondência/Malote,O malote diário com documentos de abertura de conta da agência Sul não foi coletado no horário previsto das 16h.,"1. Negativo  
+2. Correspondência/Malote  
+3. Malote diário de documentos de abertura de conta da agência Sul não foi coletado no horário previsto das 16h.  
+4. Acionar imediatamente a transportadora responsável para recolher o malote, registrar a ocorrência e notificar a agência sobre o atraso; iniciar investigação da causa e ajustar o cronograma de coleta para evitar recorrência.",322,222,0.727,0.0001815
+3,openai/gpt-oss-120b,Premium,INC01,Correspondência/Malote,O malote diário com documentos de abertura de conta da agência Sul não foi coletado no horário previsto das 16h.,"1. Negativo  
+2. Correspondência/Malote  
+3. O malote diário de documentos de abertura de conta da agência Sul não foi coletado no horário previsto das 16h.  
+4. Acionar imediatamente a transportadora ou equipe interna responsável para recolher o malote, registrar a ocorrência e notificar a agência sobre o atraso; reprogramar a coleta e monitorar a entrega para evitar impactos nos processos de abertura de conta.",322,184,0.708,0.00015869999999999998
+1,openai/gpt-oss-120b,Premium,INC05,Correspondência/Malote,"Precisamos enviar hoje até as 17h o dossiê físico original referente ao ofício judicial nº 4029/2026 para o departamento jurídico da matriz, pois o prazo processual vence amanhã às 9h.","1. Crítico  
+2. Correspondência/Malote  
+3. Envio urgente do dossiê físico original ao jurídico da matriz até as 17h para cumprir prazo judicial.  
+4. Priorizar coleta imediata e despacho via serviço de entrega expressa interno, registrar protocolo de envio e confirmar recebimento antes do prazo.",343,214,0.76,0.00017985
+2,openai/gpt-oss-120b,Premium,INC05,Correspondência/Malote,"Precisamos enviar hoje até as 17h o dossiê físico original referente ao ofício judicial nº 4029/2026 para o departamento jurídico da matriz, pois o prazo processual vence amanhã às 9h.","1. Crítico  
+2. Correspondência/Malote  
+3. Envio urgente do dossiê físico original ao jurídico da matriz até as 17h para cumprir prazo judicial.  
+4. Solicitar coleta imediata via serviço de entrega expresso interno ou parceiro, garantir rastreamento e confirmação de recebimento antes do horário limite.",343,273,0.871,0.00021524999999999997
+3,openai/gpt-oss-120b,Premium,INC05,Correspondência/Malote,"Precisamos enviar hoje até as 17h o dossiê físico original referente ao ofício judicial nº 4029/2026 para o departamento jurídico da matriz, pois o prazo processual vence amanhã às 9h.","1. Crítico  
+2. Correspondência/Malote  
+3. Envio urgente do dossiê físico original do ofício judicial nº 4029/2026 até as 17h, com prazo processual vencendo às 9h do dia seguinte.  
+4. Encaminhar imediatamente ao setor de correspondência para despacho via serviço de entrega urgente, solicitar comprovante de envio e confirmação de recebimento pelo departamento jurídico da matriz.",343,240,0.855,0.00019544999999999998
+1,openai/gpt-oss-120b,Premium,INC09,Correspondência/Malote,O código de rastreio do Sedex corporativo gerado pelo portal retorna como inválido no site dos Correios desde ontem à tarde.,"1. Negativo  
+2. Correspondência/Malote  
+3. Código de rastreio do Sedex corporativo está sendo reconhecido como inválido no site dos Correios.  
+4. Encaminhar o caso ao suporte dos Correios para validação do código e, se necessário, gerar novo código de rastreio ou reemitir o envio.",326,169,0.668,0.0001503
+2,openai/gpt-oss-120b,Premium,INC09,Correspondência/Malote,O código de rastreio do Sedex corporativo gerado pelo portal retorna como inválido no site dos Correios desde ontem à tarde.,"1. Negativo  
+2. Correspondência/Malote  
+3. Código de rastreio do Sedex corporativo está sendo reconhecido como inválido no site dos Correios desde ontem à tarde.  
+4. Encaminhar o caso ao setor de Suporte de Correios para validação do código e solicitar reemissão ou correção; registrar incidente no sistema interno e monitorar a solução.",326,174,0.729,0.00015329999999999999
+3,openai/gpt-oss-120b,Premium,INC09,Correspondência/Malote,O código de rastreio do Sedex corporativo gerado pelo portal retorna como inválido no site dos Correios desde ontem à tarde.,"1. Negativo  
+2. Correspondência/Malote  
+3. Código de rastreio do Sedex corporativo aparece como inválido no site dos Correios desde ontem à tarde.  
+4. Encaminhar o caso ao suporte de Correios para validação do código gerado, registrar incidente interno e monitorar a regularização antes de novas remessas.",326,214,0.694,0.0001773
+1,openai/gpt-oss-120b,Premium,INC13,Correspondência/Malote,Um envelope lacrado destinado à diretoria regional foi entregue por engano na agência do centro e precisa ser redirecionado ainda hoje.,"1. Crítico  
+2. Correspondência/Malote  
+3. Envelope confidencial entregue à agência errada; necessita redirecionamento imediato.  
+4. Solicitar coleta urgente na agência do centro e reenvio prioritário ao destino correto, registrando a ocorrência e notificando a diretoria regional.",325,361,1.114,0.00026535
+2,openai/gpt-oss-120b,Premium,INC13,Correspondência/Malote,Um envelope lacrado destinado à diretoria regional foi entregue por engano na agência do centro e precisa ser redirecionado ainda hoje.,"1. Crítico  
+2. Correspondência/Malote  
+3. Envelope lacrado destinado à diretoria regional entregue erroneamente na agência do centro; necessita redirecionamento imediato.  
+4. Recolher o envelope na agência do centro, registrar a ocorrência e acionar transporte interno urgente para entrega à diretoria regional ainda hoje, confirmando recebimento.",325,374,1.053,0.00027315
+3,openai/gpt-oss-120b,Premium,INC13,Correspondência/Malote,Um envelope lacrado destinado à diretoria regional foi entregue por engano na agência do centro e precisa ser redirecionado ainda hoje.,"1. Crítico  
+2. Correspondência/Malote  
+3. Envelope lacrado para a diretoria regional entregue na agência do centro; necessita redirecionamento imediato.  
+4. Solicitar a retirada do envelope na agência do centro e enviá‑lo ao destino correto ainda hoje, utilizando transporte seguro e registro de rastreamento.",325,322,1.039,0.00024195
+1,openai/gpt-oss-120b,Premium,INC17,Correspondência/Malote,Esqueci minha senha de acesso ao sistema de folha de pagamento e meu token físico parou de funcionar; preciso que a logística libere meu login ou envie um técnico de TI aqui na mesa.,"1. Negativo  
+2. SLA/Atendimento  
+3. Usuário relata senha esquecida e token",337,500,1.377,0.00035055000000000004
+2,openai/gpt-oss-120b,Premium,INC17,Correspondência/Malote,Esqueci minha senha de acesso ao sistema de folha de pagamento e meu token físico parou de funcionar; preciso que a logística libere meu login ou envie um técnico de TI aqui na mesa.,"1. Negativo  
+2. SLA/Atendimento  
+3. Usuário relata senha esquecida e token inoperante, solicitando liberação de login ou suporte técnico.  
+4. Encaminhar a solicitação ao setor de TI/Atendimento, pois está fora do escopo logístico.",337,428,1.163,0.00030735
+3,openai/gpt-oss-120b,Premium,INC17,Correspondência/Malote,Esqueci minha senha de acesso ao sistema de folha de pagamento e meu token físico parou de funcionar; preciso que a logística libere meu login ou envie um técnico de TI aqui na mesa.,"1. Negativo  
+2. SLA/Atendimento  
+3. Solicitação de liberação de login e reparo de token para acesso ao sistema de folha de pagamento, fora do escopo logístico.  
+4. Encaminhar a demanda ao setor de TI/Recursos Humanos, pois trata-se de acesso ao sistema e não de operação logística.",337,477,1.299,0.00033675
+1,openai/gpt-oss-120b,Premium,INC02,Transporte de Bens/TI,Solicitação de transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional na próxima terça-feira.,"1. Neutro  
+2. Transporte de Bens/TI  
+3. Transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional na próxima terça‑feira.  
+4. Coordenar equipe de mudança, validar disponibilidade de veículos e confirmar agenda, registrando a operação no controle de ativos.",326,241,0.867,0.0001935
+2,openai/gpt-oss-120b,Premium,INC02,Transporte de Bens/TI,Solicitação de transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional na próxima terça-feira.,"1. Neutro  
+2. Transporte de Bens/TI  
+3. Solicitação de transferência de 12 estações de trabalho e 6 monitores para a nova unidade regional na próxima terça‑feira.  
+4. Confirmar disponibilidade da equipe de mudança, providenciar embalagem adequada e agendar transporte interno ou externo para a data solicitada, garantindo checklist de itens e assinatura de recebimento.",326,236,0.82,0.0001905
+3,openai/gpt-oss-120b,Premium,INC02,Transporte de Bens/TI,Solicitação de transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional na próxima terça-feira.,"1. Neutro  
+2. Transporte de Bens/TI  
+3. Transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional prevista para a próxima terça‑feira.  
+4. Confirmar disponibilidade da equipe de mudança, registrar os ativos a serem transportados, agendar o transporte interno ou externo e coordenar o carregamento e descarregamento nas duas unidades.",326,260,0.883,0.0002049
+1,openai/gpt-oss-120b,Premium,INC06,Transporte de Bens/TI,"Precisamos recolher 4 servidores rack desativados na sala técnica do 3º andar para descarte certificado, mas o formulário exige número de patrimônio que está ilegível em um dos equipamentos.","1. Negativo  
+2. Transporte de Bens/TI  
+3. Necessidade de recolher 4 servidores desativados para descarte certificado; um equipamento tem número de patrimônio ilegível.  
+4. Encaminhar o caso à equipe de gestão de ativos/inventário para obter ou validar o número de patrimônio faltante antes de autorizar o transporte.",337,251,0.887,0.00020114999999999998
+2,openai/gpt-oss-120b,Premium,INC06,Transporte de Bens/TI,"Precisamos recolher 4 servidores rack desativados na sala técnica do 3º andar para descarte certificado, mas o formulário exige número de patrimônio que está ilegível em um dos equipamentos.","1. Negativo  
+2. Transporte de Bens/TI  
+3. Necessidade de recolher 4 servidores desativados para descarte certificado; número de patrimônio ilegível em um equipamento impede o preenchimento do formulário.  
+4. Encaminhar o caso à equipe de Inventário/Patrimônio para identificar ou registrar o número patrimonial faltante antes de autorizar a coleta dos servidores.",337,251,0.851,0.00020114999999999998
+3,openai/gpt-oss-120b,Premium,INC06,Transporte de Bens/TI,"Precisamos recolher 4 servidores rack desativados na sala técnica do 3º andar para descarte certificado, mas o formulário exige número de patrimônio que está ilegível em um dos equipamentos.","1. Negativo  
+2. Transporte de Bens/TI  
+3. Necessidade de recolher 4 servidores rack para descarte, porém o número de patrimônio de um equipamento está ilegível, impedindo o preenchimento do formulário.  
+4. Encaminhar a solicitação ao setor de Patrimônio/Inventário para obter ou validar o número de patrimônio faltante antes de autorizar a coleta e descarte.",337,284,0.963,0.00022094999999999998
+1,openai/gpt-oss-120b,Premium,INC10,Transporte de Bens/TI,"Além de o portal apresentar erro 500 ao anexar a nota fiscal de transferência dos notebooks, o pedido de toners da semana passada ainda não chegou e a equipe da agência está sem impressora e sem equipamento para os novos estagiários.","1. Crítico  
+2. Suprimentos  
+3. Portal gera erro 500 ao anexar NF de notebooks; toners não chegaram e a agência está sem impressora e equipamentos para estagiários.  
+4. Encaminhar imediatamente ao suporte de TI a correção do erro 500 e abrir solicitação urgente ao fornecedor de suprimentos para entrega de toners, impressora e equipamentos faltantes, com acompanhamento de SLA.",346,352,1.189,0.00026309999999999994
+2,openai/gpt-oss-120b,Premium,INC10,Transporte de Bens/TI,"Além de o portal apresentar erro 500 ao anexar a nota fiscal de transferência dos notebooks, o pedido de toners da semana passada ainda não chegou e a equipe da agência está sem impressora e sem equipamento para os novos estagiários.","1. Crítico  
+2. Suprimentos  
+3. Portal gera erro 500 ao anexar NF de notebooks; toners não entregues e agência sem impressora nem equipamentos para estagiários.  
+4. Encaminhar incidente ao suporte de TI para correção do erro 500, abrir consulta ao fornecedor sobre o pedido de toners e solicitar reposição urgente; providenciar equipamento temporário e impressora alternativa para a agência.",346,419,1.176,0.00030329999999999995
+3,openai/gpt-oss-120b,Premium,INC10,Transporte de Bens/TI,"Além de o portal apresentar erro 500 ao anexar a nota fiscal de transferência dos notebooks, o pedido de toners da semana passada ainda não chegou e a equipe da agência está sem impressora e sem equipamento para os novos estagiários.","1. Crítico  
+2. Suprimentos  
+3. Portal gera erro 500 ao anexar NF de notebooks; toners não chegaram e a agência está sem impressora nem equipamentos para os estagiários.  
+4. Registrar incidente de TI para o erro 500; acionar o fornecedor de toners com solicitação de entrega urgente; abrir requisição imediata de impressora e equipamentos para a agência e comunicar a gerência de operações.",346,472,1.242,0.00033509999999999996
+1,openai/gpt-oss-120b,Premium,INC14,Transporte de Bens/TI,Vou me mudar de apartamento no próximo sábado e gostaria de saber se posso agendar o caminhão da transportadora parceira do banco pelo portal para levar minha geladeira e sofá.,"1. Neutro  
+2. SLA/Atendimento  
+3. Solicitação de agendamento de transporte para mudança residencial, fora do escopo das operações logísticas do banco.  
+4. Encaminhar a demanda ao canal de atendimento ao cliente ou ao setor responsável por serviços externos, informando que o banco não oferece transporte para mudanças pessoais.",333,401,1.106,0.00029055
+2,openai/gpt-oss-120b,Premium,INC14,Transporte de Bens/TI,Vou me mudar de apartamento no próximo sábado e gostaria de saber se posso agendar o caminhão da transportadora parceira do banco pelo portal para levar minha geladeira e sofá.,"1. Negativo  
+2. SLA/Atendimento  
+3. Solicitação pessoal de agendamento de transporte não se enquadra nas operações logísticas do banco.  
+4. Encaminhar a demanda ao canal de atendimento ao cliente, informando que o serviço de transporte da parceira é destinado apenas a atividades operacionais do banco.",333,453,1.21,0.00032175
+3,openai/gpt-oss-120b,Premium,INC14,Transporte de Bens/TI,Vou me mudar de apartamento no próximo sábado e gostaria de saber se posso agendar o caminhão da transportadora parceira do banco pelo portal para levar minha geladeira e sofá.,"1. Neutro  
+2. SLA/Atendimento  
+3. Pedido fora do escopo de operações logísticas bancárias; cliente solicita agendamento de transporte pessoal.  
+4. Encaminhar ao canal de atendimento ao cliente geral, informando que o banco não disponibiliza serviço de mudança residencial.",333,472,1.251,0.00033315
+1,openai/gpt-oss-120b,Premium,INC18,Transporte de Bens/TI,"Solicitamos a movimentação de um cofre de 350 kg entre andares, mas o elevador de carga está em manutenção e não há opção no portal para indicar necessidade de içamento ou equipe extra.","1. Crítico  
+2. Transporte de Bens/TI  
+3. Movimentação de cofre de 350 kg impedida pela manutenção do elevador de carga, sem opção no portal para solicitar içamento ou equipe extra.  
+4. Encaminhar a solicitação ao setor de Facilities/Manutenção para agendar uso de elevador alternativo ou serviço de içamento e solicitar ao responsável de TI a inclusão da opção correspondente no portal.",339,294,0.916,0.00022725
+2,openai/gpt-oss-120b,Premium,INC18,Transporte de Bens/TI,"Solicitamos a movimentação de um cofre de 350 kg entre andares, mas o elevador de carga está em manutenção e não há opção no portal para indicar necessidade de içamento ou equipe extra.","1. Crítico  
+2. Transporte de Bens/TI  
+3. Movimentação de cofre de 350 kg bloqueada pela manutenção do elevador de carga e ausência de opção no portal para solicitar içamento ou equipe extra.  
+4. Encaminhar a demanda ao setor de Facilities/Manutenção para viabilizar alternativa de içamento (ex.: serviço externo) e solicitar ao responsável de TI/Logística a inclusão de campo específico no portal para esse tipo de solicitação.",339,402,1.179,0.00029205
+3,openai/gpt-oss-120b,Premium,INC18,Transporte de Bens/TI,"Solicitamos a movimentação de um cofre de 350 kg entre andares, mas o elevador de carga está em manutenção e não há opção no portal para indicar necessidade de içamento ou equipe extra.","1. Negativo  
+2. Transporte de Bens/TI  
+3. Solicitação de movimentação de cofre de 350 kg inviabilizada por manutenção do elevador de carga e ausência de opção no portal para içamento ou equipe extra.  
+4. Encaminhar a demanda ao setor de Facilities/Operações para agendar uso de elevador alternativo ou serviço de içamento, registrando a solicitação por meio do canal interno de incidentes e solicitando atualização ao solicitante.",339,281,0.917,0.00021945
+1,openai/gpt-oss-120b,Premium,INC03,Suprimentos,O estoque de bobinas térmicas para terminais de autoatendimento e papel A4 está abaixo do nível mínimo; o pedido feito há 5 dias ainda consta como pendente.,"1. Crítico  
+2. Suprimentos  
+3. Estoque de bobinas térmicas e papel A4 abaixo do mínimo; pedido de reposição há 5 dias ainda pendente.  
+4. Encaminhar a solicitação ao setor de Suprimentos/Compras para atualização do status, exigir prioridade na entrega e monitorar níveis críticos até a reposição.",335,201,0.926,0.00017085
+2,openai/gpt-oss-120b,Premium,INC03,Suprimentos,O estoque de bobinas térmicas para terminais de autoatendimento e papel A4 está abaixo do nível mínimo; o pedido feito há 5 dias ainda consta como pendente.,"1. Crítico  
+2. Suprimentos  
+3. Estoque de bobinas térmicas e papel A4 abaixo do nível mínimo; pedido de reposição pendente há 5 dias.  
+4. Encaminhar a solicitação ao setor de compras/fornecedor para atualização urgente do status e priorização da entrega, acompanhando a reposição até normalização dos níveis.",335,225,0.868,0.00018525
+3,openai/gpt-oss-120b,Premium,INC03,Suprimentos,O estoque de bobinas térmicas para terminais de autoatendimento e papel A4 está abaixo do nível mínimo; o pedido feito há 5 dias ainda consta como pendente.,"1. Crítico  
+2. Suprimentos  
+3. Estoque de bobinas térmicas e papel A4 abaixo do nível mínimo; pedido de reposição feito há 5 dias ainda está pendente.  
+4. Encaminhar ao setor de suprimentos/compras para verificação do status do pedido e solicitar aceleração da entrega, garantindo reposição imediata.",335,316,1.1,0.00023985
+1,openai/gpt-oss-120b,Premium,INC07,Suprimentos,Recebemos 20 caixas de envelopes de segurança com lacre violado na remessa desta manhã e precisamos de reposição imediata para o fechamento do caixa.,"1. Crítico  
+2. Correspondência/Malote  
+3. 20 caixas de envelopes de segurança chegaram com lacre violado, comprometendo o fechamento do caixa.  
+4. Registrar incidente de segurança, bloquear as caixas comprometidas, acionar o fornecedor para reposição urgente com lacre intacto e comunicar a área de risco.",330,250,0.853,0.0001995
+2,openai/gpt-oss-120b,Premium,INC07,Suprimentos,Recebemos 20 caixas de envelopes de segurança com lacre violado na remessa desta manhã e precisamos de reposição imediata para o fechamento do caixa.,"1. Crítico  
+2. Correspondência/Malote  
+3. Recebimento de 20 caixas de envelopes de segurança com lacre violado, necessidade de reposição urgente para fechamento de caixa.  
+4. Registrar o incidente, comunicar o fornecedor e a área de segurança, solicitar reposição imediata dos envelopes e suspender o uso das unidades comprometidas até a nova entrega.",330,311,1.057,0.0002361
+3,openai/gpt-oss-120b,Premium,INC07,Suprimentos,Recebemos 20 caixas de envelopes de segurança com lacre violado na remessa desta manhã e precisamos de reposição imediata para o fechamento do caixa.,"1. Crítico  
+2. Correspondência/Malote  
+3. Recebimento de 20 caixas de envelopes de segurança com lacre violado, exigindo reposição urgente para fechamento do caixa.  
+4. Registrar a violação de lacre, comunicar imediatamente a área de suprimentos e segurança, bloquear o lote comprometido e solicitar reposição ao fornecedor.",330,341,0.971,0.0002541
+1,openai/gpt-oss-120b,Premium,INC11,Suprimentos,"Fizemos a solicitação trimestral de materiais de escritório, mas vieram apenas as canetas e pastas; os cartuchos de toner foram cortados sem justificativa no sistema.","1. Negativo  
+2. Suprimentos  
+3. Solicitação trimestral de materiais recebeu apenas canetas e pastas; toner não foi entregue sem justificativa.  
+4. Encaminhar ao setor de suprimentos/gerência para abertura de investigação, registro da ocorrência e solicitação de reposição dos cartuchos de toner faltantes.",335,188,0.711,0.00016305
+2,openai/gpt-oss-120b,Premium,INC11,Suprimentos,"Fizemos a solicitação trimestral de materiais de escritório, mas vieram apenas as canetas e pastas; os cartuchos de toner foram cortados sem justificativa no sistema.","1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Suprimentos  
+3. Resumo Executivo: Solicitação trimestral de materiais chegou incompleta, faltando cartuchos de toner sem justificativa.  
+4. Ação Operacional Recomendada: Registrar a ocorrência, abrir pedido de reposição dos cartuchos de toner ao fornecedor e investigar a causa da exclusão no sistema.",335,271,0.898,0.00021285
+3,openai/gpt-oss-120b,Premium,INC11,Suprimentos,"Fizemos a solicitação trimestral de materiais de escritório, mas vieram apenas as canetas e pastas; os cartuchos de toner foram cortados sem justificativa no sistema.","1. Negativo  
+2. Suprimentos  
+3. Solicitação trimestral de materiais chegou incompleta, faltando os cartuchos de toner sem justificativa.  
+4. Encaminhar a demanda ao setor de suprimentos para investigação, solicitar reposição dos toners e registro de justificativa.",335,363,1.12,0.00026804999999999993
+1,openai/gpt-oss-120b,Premium,INC15,Suprimentos,"O sistema bloqueia o pedido de novos leitores biométricos alegando cota excedida, mas a nossa unidade passou por ampliação recente e dobrou o número de guichês.","1. Crítico  
+2. Suprimentos  
+3. Sistema impede a compra de leitores biométricos por cota excedida após ampliação da unidade.  
+4. Encaminhar ao gestor de suprimentos/gerência de TI para revisão e ajuste da cota de aquisição.",335,225,0.762,0.00018525
+2,openai/gpt-oss-120b,Premium,INC15,Suprimentos,"O sistema bloqueia o pedido de novos leitores biométricos alegando cota excedida, mas a nossa unidade passou por ampliação recente e dobrou o número de guichês.","1. Crítico  
+2. Transporte de Bens/TI  
+3. Sistema bloqueia a compra de novos leitores biométricos por cota excedida, apesar da recente ampliação da unidade.  
+4. Encaminhar a demanda ao responsável pela gestão de cotas/TI para revisão e aumento da cota, solicitando liberação urgente dos leitores.",335,346,1.179,0.00025785
+3,openai/gpt-oss-120b,Premium,INC15,Suprimentos,"O sistema bloqueia o pedido de novos leitores biométricos alegando cota excedida, mas a nossa unidade passou por ampliação recente e dobrou o número de guichês.","1. Crítico  
+2. Suprimentos  
+3. Bloqueio do pedido de leitores biométricos por cota excedida após ampliação da unidade.  
+4. Encaminhar ao responsável pela gestão de cotas de suprimentos/biométricos para revisão e liberação do pedido.",335,338,1.039,0.00025305
+1,openai/gpt-oss-120b,Premium,INC19,Suprimentos,Consulta de rotina: qual é a janela mensal padrão para abertura de pedidos ordinários de suprimentos de papelaria para agências do interior?,"1. Neutro  
+2. Suprimentos  
+3. Solicitação de informação sobre a janela mensal padrão para abertura de pedidos ordinários de suprimentos de papelaria para agências do interior.  
+4. Encaminhar a consulta ao setor responsável pela definição das janelas de pedidos de suprimentos ou consultar a política interna de compras e responder ao solicitante com a informação oficial.",325,305,0.979,0.00023175
+2,openai/gpt-oss-120b,Premium,INC19,Suprimentos,Consulta de rotina: qual é a janela mensal padrão para abertura de pedidos ordinários de suprimentos de papelaria para agências do interior?,"1. Neutro  
+2. Suprimentos  
+3. Solicitação de informação sobre a janela mensal padrão para abertura de pedidos de suprimentos de papelaria para agências do interior.  
+4. Encaminhar a consulta ao setor de Suprimentos/Compras ou consultar a política interna de pedidos de suprimentos para obter a janela mensal padrão e responder ao solicitante.",325,327,1.035,0.00024494999999999996
+3,openai/gpt-oss-120b,Premium,INC19,Suprimentos,Consulta de rotina: qual é a janela mensal padrão para abertura de pedidos ordinários de suprimentos de papelaria para agências do interior?,"1. Neutro  
+2. Suprimentos  
+3. Solicitação de informação sobre a janela mensal padrão para abertura de pedidos de suprimentos de papelaria nas agências do interior.  
+4. Confirmar a política de suprimentos ou encaminhar a consulta ao setor de suprimentos/gerência de compras para obter a janela mensal padrão.",325,328,0.973,0.00024555
+1,openai/gpt-oss-120b,Premium,INC04,SLA/Atendimento,A transportadora homologada tentou entregar o lote de cartões fora do horário comercial da agência e marcou o chamado como concluído sem recebedor.,"1. Crítico  
+2. Transporte de Bens/TI  
+3. Transportadora tentou entregar lote de cartões fora do horário comercial e registrou o chamado como concluído sem recebedor, gerando falha na entrega.  
+4. Reabrir o chamado, solicitar à transportadora a correção do registro e agendar nova entrega dentro do horário comercial; notificar a gerência de logística e registrar o incidente para análise de causa raiz.",326,286,1.039,0.0002205
+2,openai/gpt-oss-120b,Premium,INC04,SLA/Atendimento,A transportadora homologada tentou entregar o lote de cartões fora do horário comercial da agência e marcou o chamado como concluído sem recebedor.,"1. Crítico  
+2. Transporte de Bens/TI  
+3. Transportadora tentou entregar lote de cartões fora do horário comercial e registrou o chamado como concluído sem recebedor.  
+4. Reabrir o chamado, notificar a agência e a transportadora, solicitar nova tentativa de entrega dentro do horário comercial e registrar a ocorrência para auditoria.",326,251,0.85,0.0001995
+3,openai/gpt-oss-120b,Premium,INC04,SLA/Atendimento,A transportadora homologada tentou entregar o lote de cartões fora do horário comercial da agência e marcou o chamado como concluído sem recebedor.,"1. Negativo  
+2. Transporte de Bens/TI  
+3. Transportadora tentou entregar lote de cartões fora do horário comercial e marcou o chamado como concluído sem recebedor.  
+4. Registrar não conformidade, abrir investigação com a transportadora e solicitar nova entrega dentro do horário comercial; atualizar o status no sistema e comunicar a agência responsável.",326,400,1.229,0.0002889
+1,openai/gpt-oss-120b,Premium,INC08,SLA/Atendimento,"Parabéns pelo novo visual do portal de rastreamento, ficou muito moderno; pena que meu malote com contratos assinados está parado no status 'em triagem' há quatro dias sem ninguém responder o chamado.","1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Correspondência/Malote  
+3. Resumo Executivo: O cliente elogia o novo portal, mas relata que seu malote com contratos está parado em “em triagem” há quatro dias sem resposta.  
+4. Ação Operacional Recomendada: Encaminhar o caso ao setor de triagem de malotes para verificação imediata do status, solicitar atualização ao responsável e garantir a liberação ou entrega urgente do documento.",340,188,0.65,0.00016380000000000002
+2,openai/gpt-oss-120b,Premium,INC08,SLA/Atendimento,"Parabéns pelo novo visual do portal de rastreamento, ficou muito moderno; pena que meu malote com contratos assinados está parado no status 'em triagem' há quatro dias sem ninguém responder o chamado.","1. Crítico  
+2. Correspondência/Malote  
+3. Portal elogiado, mas malote com contratos está parado em triagem há 4 dias sem resposta.  
+4. Encaminhar o chamado ao responsável pela triagem de malotes, solicitar atualização urgente e definir prazo de liberação.",340,382,1.13,0.0002802
+3,openai/gpt-oss-120b,Premium,INC08,SLA/Atendimento,"Parabéns pelo novo visual do portal de rastreamento, ficou muito moderno; pena que meu malote com contratos assinados está parado no status 'em triagem' há quatro dias sem ninguém responder o chamado.","1. Crítico  
+2. Correspondência/Malote  
+3. Malote com contratos está em status “em triagem” há quatro dias sem resposta, apesar do elogio ao portal.  
+4. Encaminhar o chamado ao responsável pela triagem de malotes, solicitar prioridade na liberação e monitorar o andamento, mantendo o cliente informado.",340,433,1.254,0.0003108
+1,openai/gpt-oss-120b,Premium,INC12,SLA/Atendimento,Gostaria de elogiar a equipe de logística especial pela agilidade na mudança do mobiliário da sala de reuniões ontem; tudo foi entregue antes do prazo e sem avarias.,"1. Positivo  
+2. Transporte de Bens/TI  
+3. Elogio à equipe de logística especial pela entrega rápida e sem avarias do mobiliário da sala de reuniões.  
+4. Registrar o elogio no canal de reconhecimento interno e manter o procedimento atual de mudança de mobiliário.",332,330,1.012,0.0002478
+2,openai/gpt-oss-120b,Premium,INC12,SLA/Atendimento,Gostaria de elogiar a equipe de logística especial pela agilidade na mudança do mobiliário da sala de reuniões ontem; tudo foi entregue antes do prazo e sem avarias.,"1. Positivo  
+2. Suprimentos  
+3. Elogio à equipe de logística especial pela entrega rápida e sem avarias do mobiliário da sala de reuniões.  
+4. Encaminhar o elogio ao gestor da área para registro e reconhecimento da equipe.",332,277,0.873,0.000216
+3,openai/gpt-oss-120b,Premium,INC12,SLA/Atendimento,Gostaria de elogiar a equipe de logística especial pela agilidade na mudança do mobiliário da sala de reuniões ontem; tudo foi entregue antes do prazo e sem avarias.,"1. Positivo  
+2. Suprimentos  
+3. Elogio à equipe de logística especial pela entrega antecipada e sem avarias do mobiliário da sala de reuniões.  
+4. Registrar o elogio no canal de reconhecimento interno e comunicar ao gestor da logística para reforçar a prática.",332,365,1.119,0.00026880000000000003
+1,openai/gpt-oss-120b,Premium,INC16,SLA/Atendimento,"O motorista responsável pela coleta de malotes da rota oeste não possui crachá de identificação atualizado, o que gerou bloqueio na portaria do edifício corporativo.","1. Crítico  
+2. Correspondência/Malote  
+3. Motorista da coleta de malotes da rota oeste foi impedido de entrar por falta de crachá atualizado, gerando bloqueio na portaria.  
+4. Providenciar a atualização imediata do crachá do motorista e solicitar liberação temporária à segurança; comunicar a gestão de frota para revisão dos controles de identificação dos motoristas.",331,256,0.784,0.00020325
+2,openai/gpt-oss-120b,Premium,INC16,SLA/Atendimento,"O motorista responsável pela coleta de malotes da rota oeste não possui crachá de identificação atualizado, o que gerou bloqueio na portaria do edifício corporativo.","1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Correspondência/Malote  
+3. Resumo Executivo: Motorista da rota oeste foi bloqueado na portaria por não possuir crachá de identificação atualizado.  
+4. Ação Operacional Recomendada: Solicitar a atualização imediata do crachá ao setor responsável, validar o acesso com a portaria e reagendar a coleta após a regularização da credencial.",331,343,1.1,0.00025545
+3,openai/gpt-oss-120b,Premium,INC16,SLA/Atendimento,"O motorista responsável pela coleta de malotes da rota oeste não possui crachá de identificação atualizado, o que gerou bloqueio na portaria do edifício corporativo.","1. Negativo  
+2. Correspondência/Malote  
+3. Motorista da rota oeste foi impedido de coletar malotes por falta de crachá de identificação atualizado.  
+4. Encaminhar o caso ao setor de Segurança/Recursos Humanos para atualização imediata do crachá e liberação de acesso, registrando a ocorrência para controle interno.",331,259,0.923,0.00020505000000000002
+1,openai/gpt-oss-120b,Premium,INC20,SLA/Atendimento,O SLA de atendimento para chamados de extravio de malote já venceu há 48 horas e não houve atualização da transportadora nem retorno da central de suporte.,"1. Crítico  
+2. Correspondência/Malote  
+3. SLA de extravio de malote está vencido há 48 h sem atualização da transportadora ou da central de suporte.  
+4. Escalar ao gestor da transportadora e à gerência de suporte, abrir acompanhamento urgente e solicitar retorno de status ao cliente.",329,296,0.942,0.00022695
+2,openai/gpt-oss-120b,Premium,INC20,SLA/Atendimento,O SLA de atendimento para chamados de extravio de malote já venceu há 48 horas e não houve atualização da transportadora nem retorno da central de suporte.,"1. Crítico  
+2. Correspondência/Malote  
+3. SLA de extravio de malote vencido há 48 h sem atualização da transportadora nem retorno da central de suporte.  
+4. Escalar o caso ao gestor de transportes e à gerência de suporte, solicitando atualização imediata e registro formal do incidente para acompanhamento.",329,228,0.801,0.00018614999999999997
+3,openai/gpt-oss-120b,Premium,INC20,SLA/Atendimento,O SLA de atendimento para chamados de extravio de malote já venceu há 48 horas e não houve atualização da transportadora nem retorno da central de suporte.,"1. Crítico  
+2. Correspondência/Malote  
+3. SLA de extravio de malote vencido há 48 h sem atualização da transportadora nem retorno da central de suporte.  
+4. Escalar o caso ao gestor de transportes e à gerência de suporte, solicitar status imediato da transportadora, registrar incidente e reabrir o chamado para acompanhamento prioritário.",329,257,0.855,0.00020355
+1,qwen/qwen3.8-27b,Intermediario,INC01,Correspondência/Malote,O malote diário com documentos de abertura de conta da agência Sul não foi coletado no horário previsto das 16h.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Falha na coleta do malote diário da agência Sul às 16h, contendo documentos de abertura de conta.
+4. Ação Operacional Recomendada: Acionar imediatamente a equipe de transporte responsável pela rota da agência Sul para realizar a coleta pendente e registrar a ocorrência de atraso.",279,91,0.465,5.52e-5
+2,qwen/qwen3.8-27b,Intermediario,INC01,Correspondência/Malote,O malote diário com documentos de abertura de conta da agência Sul não foi coletado no horário previsto das 16h.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Falha na coleta do malote diário de documentos da agência Sul às 16h.
+4. Ação Operacional Recomendada: Acionar a equipe de logística para rastrear o malote e verificar a causa da não coleta, informando a agência Sul sobre o status.",279,87,0.494,5.4e-5
+3,qwen/qwen3.8-27b,Intermediario,INC01,Correspondência/Malote,O malote diário com documentos de abertura de conta da agência Sul não foi coletado no horário previsto das 16h.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Falha na coleta do malote diário de documentos da agência Sul às 16h.
+4. Ação Operacional Recomendada: Acionar a transportadora responsável para apuração da falha e garantir a coleta imediata dos documentos pendentes.",279,81,0.418,5.22e-5
+1,qwen/qwen3.8-27b,Intermediario,INC05,Correspondência/Malote,"Precisamos enviar hoje até as 17h o dossiê físico original referente ao ofício judicial nº 4029/2026 para o departamento jurídico da matriz, pois o prazo processual vence amanhã às 9h.","1. Severidade/Sentimento: Crítico
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Necessidade de envio urgente de dossiê físico original para a matriz até 17h, com prazo processual de vencimento no dia seguinte às 9h.
+4. Ação Operacional Recomendada: Priorizar o despacho imediato do documento via malote expresso ou serviço de entrega urgente disponível, garantindo o rastreamento e a confirmação de recebimento antes do prazo limite de 17h.",304,116,0.5,6.52e-5
+2,qwen/qwen3.8-27b,Intermediario,INC05,Correspondência/Malote,"Precisamos enviar hoje até as 17h o dossiê físico original referente ao ofício judicial nº 4029/2026 para o departamento jurídico da matriz, pois o prazo processual vence amanhã às 9h.","1. Severidade/Sentimento: Crítico
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Necessidade de envio urgente de dossiê físico original para a matriz até 17h, com prazo processual vencendo no dia seguinte às 9h.
+4. Ação Operacional Recomendada: Priorizar o despacho imediato via malote expresso ou serviço de entrega urgente para garantir a chegada antes do prazo processual, validando a documentação de origem.",304,105,0.48,6.19e-5
+3,qwen/qwen3.8-27b,Intermediario,INC05,Correspondência/Malote,"Precisamos enviar hoje até as 17h o dossiê físico original referente ao ofício judicial nº 4029/2026 para o departamento jurídico da matriz, pois o prazo processual vence amanhã às 9h.","1. Severidade/Sentimento: Crítico
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Necessidade de envio urgente de dossiê físico original para a matriz até as 17h de hoje, devido a prazo processual judicial que vence amanhã às 9h.
+4. Ação Operacional Recomendada: Priorizar imediatamente o despacho do documento via malote urgente ou serviço de entrega expressa, garantindo o rastreamento e a confirmação de recebimento dentro do prazo estabelecido.",304,114,1.735,6.46e-5
+1,qwen/qwen3.8-27b,Intermediario,INC09,Correspondência/Malote,O código de rastreio do Sedex corporativo gerado pelo portal retorna como inválido no site dos Correios desde ontem à tarde.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: O código de rastreio Sedex corporativo gerado no portal está retornando como inválido no site dos Correios desde ontem à tarde.
+4. Ação Operacional Recomendada: Encaminhar o caso ao suporte técnico do portal de logística e/ao fornecedor de serviços postais para verificação da integração de dados, declarando a limitação de não possuir acesso técnico ao sistema de geração dos códigos.",280,114,0.527,6.22e-5
+2,qwen/qwen3.8-27b,Intermediario,INC09,Correspondência/Malote,O código de rastreio do Sedex corporativo gerado pelo portal retorna como inválido no site dos Correios desde ontem à tarde.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Código de rastreio Sedex corporativo gerado no portal está retornando como inválido no site dos Correios desde ontem à tarde.
+4. Ação Operacional Recomendada: Encaminhar o incidente à equipe de suporte do portal de logística ou ao fornecedor de serviços postais para validação técnica do código, pois não há informações no relato sobre o protocolo específico de resolução.",280,107,0.496,6.0100000000000004e-5
+3,qwen/qwen3.8-27b,Intermediario,INC09,Correspondência/Malote,O código de rastreio do Sedex corporativo gerado pelo portal retorna como inválido no site dos Correios desde ontem à tarde.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: O código de rastreio do Sedex corporativo, gerado pelo portal, está retornando como inválido no site dos Correios desde ontem à tarde.
+4. Ação Operacional Recomendada: Encaminhar o caso ao suporte técnico do portal de logística ou ao fornecedor de serviços postais para verificação da integridade do código gerado, pois não há informações no relato sobre o protocolo específico de validação.",280,116,0.529,6.28e-5
+1,qwen/qwen3.8-27b,Intermediario,INC13,Correspondência/Malote,Um envelope lacrado destinado à diretoria regional foi entregue por engano na agência do centro e precisa ser redirecionado ainda hoje.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Envelope lacrado para a diretoria regional foi entregue por engano na agência do centro.
+   Necessário redirecionamento imediato para o destino correto ainda hoje.
+4. Ação Operacional Recomendada: Acionar o serviço de malote/correspondência para recolher o envelope na agência do centro e realizar a entrega na diretoria regional dentro do prazo solicitado.",279,107,0.712,6.0e-5
+2,qwen/qwen3.8-27b,Intermediario,INC13,Correspondência/Malote,Um envelope lacrado destinado à diretoria regional foi entregue por engano na agência do centro e precisa ser redirecionado ainda hoje.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Envelope lacrado para a diretoria regional foi entregue erroneamente na agência do centro.
+   Necessário redirecionamento imediato para o destino correto ainda hoje.
+4. Ação Operacional Recomendada: Acionar a equipe de malote para interceptar o item na agência do centro e realizar o redirecionamento imediato para a diretoria regional, garantindo a entrega no mesmo dia.",279,110,0.507,6.09e-5
+3,qwen/qwen3.8-27b,Intermediario,INC13,Correspondência/Malote,Um envelope lacrado destinado à diretoria regional foi entregue por engano na agência do centro e precisa ser redirecionado ainda hoje.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Envelope lacrado para diretoria regional entregue erroneamente na agência do centro.
+   Necessário redirecionamento imediato para o destino correto ainda hoje.
+4. Ação Operacional Recomendada: Acionar o serviço de malote para recolher o envelope na agência do centro e realizar o redirecionamento imediato para a diretoria regional, garantindo a entrega no mesmo dia.",279,108,0.466,6.0299999999999995e-5
+1,qwen/qwen3.8-27b,Intermediario,INC17,Correspondência/Malote,Esqueci minha senha de acesso ao sistema de folha de pagamento e meu token físico parou de funcionar; preciso que a logística libere meu login ou envie um técnico de TI aqui na mesa.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: SLA/Atendimento
+3. Resumo Executivo: O relato descreve falha em credenciais de sistema de folha e token físico, solicitando ação de logística.
+4. Ação Operacional Recomendada: Encaminhar para o suporte de TI e/ou RH, pois a liberação de login e manutenção de tokens não são competências da operação logística bancária.",292,95,1.641,5.77e-5
+2,qwen/qwen3.8-27b,Intermediario,INC17,Correspondência/Malote,Esqueci minha senha de acesso ao sistema de folha de pagamento e meu token físico parou de funcionar; preciso que a logística libere meu login ou envie um técnico de TI aqui na mesa.,"1. Severidade/Sentimento: Neutro
+2. Categoria Logística: Fora do escopo de operações logísticas bancárias
+3. Resumo Executivo: O relato descreve falhas de acesso ao sistema de folha de pagamento e de token físico, solicitando ações de TI/RH.
+4. Ação Operacional Recomendada: Encaminhar o chamado para as áreas de Suporte de TI e Recursos Humanos, pois a liberação de logins e manutenção de tokens não competem à logística.",292,106,0.494,6.1e-5
+3,qwen/qwen3.8-27b,Intermediario,INC17,Correspondência/Malote,Esqueci minha senha de acesso ao sistema de folha de pagamento e meu token físico parou de funcionar; preciso que a logística libere meu login ou envie um técnico de TI aqui na mesa.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: SLA/Atendimento
+3. Resumo Executivo: O relato descreve uma falha de acesso ao sistema de folha e um token inoperante, solicitando intervenção logística para liberação de login ou envio de técnico.
+4. Ação Operacional Recomendada: Encaminhar para o suporte de TI e/ou RH, pois a recuperação de credenciais e a manutenção de tokens são responsabilidades das áreas de Tecnologia e Gestão de Pessoas, estando fora do escopo de operações logísticas bancárias (Correspondência, Transporte ou Suprimentos).",292,132,0.542,6.88e-5
+1,qwen/qwen3.8-27b,Intermediario,INC02,Transporte de Bens/TI,Solicitação de transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional na próxima terça-feira.,"1. Severidade/Sentimento: Neutro
+2. Categoria Logística: Transporte de Bens/TI
+3. Resumo Executivo: Solicitação de transporte de 18 equipamentos de TI (estações e monitores) entre prédios para a próxima terça-feira.
+4. Ação Operacional Recomendada: Encaminhar para a equipe de logística de TI para validação da capacidade de carga e agendamento do frete, observando que o relato não especifica se a data ""próxima terça-feira"" é viável ou se há restrições de acesso aos locais.",283,120,0.617,6.429999999999999e-5
+2,qwen/qwen3.8-27b,Intermediario,INC02,Transporte de Bens/TI,Solicitação de transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional na próxima terça-feira.,"1. Severidade/Sentimento: Neutro
+2. Categoria Logística: Transporte de Bens/TI
+3. Resumo Executivo: Solicitação de transporte de 18 ativos de TI (estações e monitores) entre duas unidades bancárias para a próxima terça-feira.
+4. Ação Operacional Recomendada: Encaminhar a solicitação ao setor de logística de TI para validação da capacidade de carga, agendamento do frete e emissão da ordem de serviço, observando que o relato não especifica se os equipamentos estão desligados, desinstalados ou se há necessidade de embalagem especial.",283,127,0.621,6.64e-5
+3,qwen/qwen3.8-27b,Intermediario,INC02,Transporte de Bens/TI,Solicitação de transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional na próxima terça-feira.,"1. Severidade/Sentimento: Neutro
+2. Categoria Logística: Transporte de Bens/TI
+3. Resumo Executivo: Solicitação de transporte de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional. O prazo estabelecido é para a próxima terça-feira.
+4. Ação Operacional Recomendada: Encaminhar a solicitação ao setor de logística de TI para agendamento do transporte e verificação da capacidade de carga para a data informada.",283,107,0.586,6.0400000000000004e-5
+1,qwen/qwen3.8-27b,Intermediario,INC06,Transporte de Bens/TI,"Precisamos recolher 4 servidores rack desativados na sala técnica do 3º andar para descarte certificado, mas o formulário exige número de patrimônio que está ilegível em um dos equipamentos.","1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Transporte de Bens/TI
+3. Resumo Executivo: Necessária coleta de 4 servidores rack desativados para descarte certificado, porém o processo está bloqueado pela ilegibilidade do número de patrimônio de um dos equipamentos.
+4. Ação Operacional Recomendada: Encaminhar o equipamento com patrimônio ilegível ao setor responsável pela gestão de ativos para regularização da identificação, mantendo a coleta dos demais itens em andamento se possível, ou aguardando a regularização para a coleta conjunta, conforme procedimento interno de descarte.",293,125,0.511,6.68e-5
+2,qwen/qwen3.8-27b,Intermediario,INC06,Transporte de Bens/TI,"Precisamos recolher 4 servidores rack desativados na sala técnica do 3º andar para descarte certificado, mas o formulário exige número de patrimônio que está ilegível em um dos equipamentos.","1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Transporte de Bens/TI
+3. Resumo Executivo: Necessária coleta de 4 servidores rack desativados para descarte certificado, porém o processo está bloqueado pela ilegibilidade do número de patrimônio em um dos equipamentos.
+4. Ação Operacional Recomendada: Encaminhar o equipamento com patrimônio ilegível ao setor responsável pela gestão de ativos para regularização da identificação, mantendo os demais itens em espera para coleta conforme o protocolo de descarte certificado.",293,112,0.494,6.290000000000001e-5
+3,qwen/qwen3.8-27b,Intermediario,INC06,Transporte de Bens/TI,"Precisamos recolher 4 servidores rack desativados na sala técnica do 3º andar para descarte certificado, mas o formulário exige número de patrimônio que está ilegível em um dos equipamentos.","1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Transporte de Bens/TI
+3. Resumo Executivo: Necessária a coleta de 4 servidores rack desativados para descarte certificado, porém o processo está bloqueado pela ilegibilidade do número de patrimônio em um dos equipamentos.
+4. Ação Operacional Recomendada: Encaminhar o caso ao setor responsável pela gestão de ativos ou patrimônio para a verificação e regularização do número ilegível, permitindo assim a liberação do formulário e a execução da coleta.",293,113,0.513,6.32e-5
+1,qwen/qwen3.8-27b,Intermediario,INC10,Transporte de Bens/TI,"Além de o portal apresentar erro 500 ao anexar a nota fiscal de transferência dos notebooks, o pedido de toners da semana passada ainda não chegou e a equipe da agência está sem impressora e sem equipamento para os novos estagiários.","1. Severidade/Sentimento: Crítico
+2. Categoria Logística: Suprimentos
+3. Resumo Executivo: Falha crítica no portal (erro 500) impede o registro da nota fiscal de transferência de notebooks.
+   O atraso na entrega de toners e a falta de equipamentos para estagiários paralisam as operações da agência.
+4. Ação Operacional Recomendada: Encaminhar imediatamente para a equipe de TI a correção do erro 500 no portal para habilitar o anexo da nota fiscal.
+   Escalar para a área de Suprimentos a investigação do atraso dos toners e a alocação emergencial de impressoras e equipamentos para os novos estagiários.",304,155,0.56,7.69e-5
+2,qwen/qwen3.8-27b,Intermediario,INC10,Transporte de Bens/TI,"Além de o portal apresentar erro 500 ao anexar a nota fiscal de transferência dos notebooks, o pedido de toners da semana passada ainda não chegou e a equipe da agência está sem impressora e sem equipamento para os novos estagiários.","1. Severidade/Sentimento: Crítico
+2. Categoria Logística: Suprimentos
+3. Resumo Executivo: Falha no portal (erro 500) impede o registro da nota fiscal de transferência de notebooks e o atraso na entrega de toners deixou a agência sem impressora e sem equipamentos para os estagiários.
+4. Ação Operacional Recomendada: Encaminhar imediatamente a equipe de TI para resolver o erro 500 no portal e acionar a logística de suprimentos para rastrear e priorizar a entrega dos toners pendentes e dos equipamentos para os estagiários.",304,130,0.559,6.94e-5
+3,qwen/qwen3.8-27b,Intermediario,INC10,Transporte de Bens/TI,"Além de o portal apresentar erro 500 ao anexar a nota fiscal de transferência dos notebooks, o pedido de toners da semana passada ainda não chegou e a equipe da agência está sem impressora e sem equipamento para os novos estagiários.","1. Severidade/Sentimento: Crítico
+2. Categoria Logística: Suprimentos
+3. Resumo Executivo: Falha crítica no portal (erro 500) impede o registro da NF de notebooks, enquanto a entrega de toners está atrasada, resultando em indisponibilidade de impressão e equipamentos para estagiários.
+4. Ação Operacional Recomendada: Escalar imediatamente a falha técnica do portal ao suporte de TI para liberação do fluxo de NF e acionar a logística de suprimentos para rastreamento e entrega urgente dos toners e equipamentos, notificando a gestão da agência sobre a interrupção operacional.",304,135,0.592,7.09e-5
+1,qwen/qwen3.8-27b,Intermediario,INC14,Transporte de Bens/TI,Vou me mudar de apartamento no próximo sábado e gostaria de saber se posso agendar o caminhão da transportadora parceira do banco pelo portal para levar minha geladeira e sofá.,"1. Severidade/Sentimento: Neutro
+2. Categoria Logística: Fora do escopo de operações logísticas bancárias
+3. Resumo Executivo: O cliente solicita o uso de veículos de transportadora parceira do banco para transporte de bens pessoais (geladeira e sofá) em mudança residencial.
+4. Ação Operacional Recomendada: Informar ao cliente que a frota e os serviços logísticos do banco destinam-se exclusivamente a operações institucionais e não atendem a necessidades pessoais, encerrando o atendimento sem encaminhamento operacional.",289,115,0.559,6.340000000000001e-5
+2,qwen/qwen3.8-27b,Intermediario,INC14,Transporte de Bens/TI,Vou me mudar de apartamento no próximo sábado e gostaria de saber se posso agendar o caminhão da transportadora parceira do banco pelo portal para levar minha geladeira e sofá.,"1. Severidade/Sentimento: Neutro
+2. Categoria Logística: Fora do escopo de operações logísticas bancárias (Assunto pessoal)
+3. Resumo Executivo: O cliente solicita o uso do caminhão da transportadora parceira do banco para transporte de bens pessoais (geladeira e sofá) em mudança residencial.
+4. Ação Operacional Recomendada: Informar ao cliente que o serviço de transporte da transportadora parceira é restrito às operações logísticas internas do banco e não atende a demandas pessoais, encerrando o atendimento sem encaminhamento operacional.",289,121,0.672,6.52e-5
+3,qwen/qwen3.8-27b,Intermediario,INC14,Transporte de Bens/TI,Vou me mudar de apartamento no próximo sábado e gostaria de saber se posso agendar o caminhão da transportadora parceira do banco pelo portal para levar minha geladeira e sofá.,"1. Severidade/Sentimento: Neutro
+2. Categoria Logística: Fora do escopo de operações logísticas bancárias
+3. Resumo Executivo: O cliente solicita o uso de caminhão da transportadora parceira do banco para transporte de móveis pessoais em mudança residencial, o que não se enquadra nas operações logísticas institucionais.
+4. Ação Operacional Recomendada: Informar ao cliente que o serviço de transporte de bens é restrito a ativos e materiais do banco, negando o pedido por estar fora do escopo operacional.",289,116,0.56,6.37e-5
+3,qwen/qwen3.8-27b,Intermediario,INC18,Transporte de Bens/TI,"Solicitamos a movimentação de um cofre de 350 kg entre andares, mas o elevador de carga está em manutenção e não há opção no portal para indicar necessidade de içamento ou equipe extra.","1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Transporte de Bens/TI
+3. Resumo Executivo: Solicitada movimentação de cofre de 350 kg entre andares, impedida pela manutenção do elevador de carga. O portal não oferece opção para solicitar içamento ou equipe extra.
+4. Ação Operacional Recomendada: Encaminhar o caso ao gestor de operações logísticas para avaliação de alternativas de transporte manual ou mecânico, dado que o sistema atual não suporta a solicitação de recursos especiais (içamento/equipe extra).",297,121,0.542,6.6e-5
+1,qwen/qwen3.8-27b,Intermediario,INC03,Suprimentos,O estoque de bobinas térmicas para terminais de autoatendimento e papel A4 está abaixo do nível mínimo; o pedido feito há 5 dias ainda consta como pendente.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Suprimentos
+3. Resumo Executivo: Estoque de bobinas térmicas e papel A4 abaixo do mínimo com pedido pendente há 5 dias.
+4. Ação Operacional Recomendada: Escalar a situação ao fornecedor ou setor de compras para verificar o status do pedido pendente e garantir o abastecimento imediato dos terminais.",290,91,0.453,5.63e-5
+2,qwen/qwen3.8-27b,Intermediario,INC03,Suprimentos,O estoque de bobinas térmicas para terminais de autoatendimento e papel A4 está abaixo do nível mínimo; o pedido feito há 5 dias ainda consta como pendente.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Suprimentos
+3. Resumo Executivo: Estoque de bobinas térmicas e papel A4 abaixo do mínimo, com pedido pendente há 5 dias.
+4. Ação Operacional Recomendada: Escalar a situação para o setor de compras/almoxarifado para apuração do atraso no pedido e liberação de estoque emergencial, dado que o relato não especifica o canal de acompanhamento ou o responsável pelo fornecimento.",290,110,0.48,6.2e-5
+1,qwen/qwen3.8-27b,Intermediario,INC07,Suprimentos,Recebemos 20 caixas de envelopes de segurança com lacre violado na remessa desta manhã e precisamos de reposição imediata para o fechamento do caixa.,"1. Severidade/Sentimento: Crítico
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Recebimento de 20 caixas de envelopes de segurança com lacre violado na remessa da manhã, exigindo reposição imediata para o fechamento do caixa.
+4. Ação Operacional Recomendada: Acionar imediatamente o fornecedor ou setor de suprimentos para a reposição emergencial dos itens danificados, registrando a não conformidade do lacre para apuração de responsabilidade na entrega.",289,116,0.607,6.37e-5
+2,qwen/qwen3.8-27b,Intermediario,INC07,Suprimentos,Recebemos 20 caixas de envelopes de segurança com lacre violado na remessa desta manhã e precisamos de reposição imediata para o fechamento do caixa.,"1. Severidade/Sentimento: Crítico
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Recebimento de 20 caixas de envelopes de segurança com lacre violado na remessa matinal, exigindo reposição imediata para viabilizar o fechamento do caixa.
+4. Ação Operacional Recomendada: Acionar imediatamente o fornecedor ou a área de suprimentos para a reposição emergencial dos envelopes, registrando a não conformidade do lacre para análise de qualidade e segurança.",289,116,0.497,6.37e-5
+1,qwen/qwen3.8-27b,Intermediario,INC11,Suprimentos,"Fizemos a solicitação trimestral de materiais de escritório, mas vieram apenas as canetas e pastas; os cartuchos de toner foram cortados sem justificativa no sistema.","1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Suprimentos
+3. Resumo Executivo: A entrega trimestral de materiais de escritório foi parcial, com a ausência injustificada de cartuchos de toner. O sistema não apresenta justificativa para o corte do item.
+4. Ação Operacional Recomendada: Encaminhar o caso ao setor de Suprimentos para apuração da causa do corte no sistema e providenciar a reposição dos cartuchos de toner pendentes.",291,107,0.507,6.12e-5
+2,qwen/qwen3.8-27b,Intermediario,INC11,Suprimentos,"Fizemos a solicitação trimestral de materiais de escritório, mas vieram apenas as canetas e pastas; os cartuchos de toner foram cortados sem justificativa no sistema.","1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Suprimentos
+3. Resumo Executivo: A entrega trimestral de materiais de escritório foi parcial, com ausência de cartuchos de toner. O sistema indica corte sem justificativa registrada.
+4. Ação Operacional Recomendada: Encaminhar ao setor de Suprimentos para investigação da causa do corte no sistema e regularização da entrega dos itens faltantes.",291,92,0.445,5.67e-5
+3,qwen/qwen3.8-27b,Intermediario,INC11,Suprimentos,"Fizemos a solicitação trimestral de materiais de escritório, mas vieram apenas as canetas e pastas; os cartuchos de toner foram cortados sem justificativa no sistema.","1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Suprimentos
+3. Resumo Executivo: A solicitação trimestral de materiais de escritório foi atendida parcialmente, com a entrega de canetas e pastas, mas os cartuchos de toner foram cortados sem justificativa registrada no sistema.
+4. Ação Operacional Recomendada: Encaminhar o caso ao setor de Suprimentos para investigação da causa do corte dos itens e obtenção da justificativa formal, uma vez que o relato não especifica o motivo ou o canal de contestação.",291,121,0.529,6.54e-5
+2,qwen/qwen3.8-27b,Intermediario,INC15,Suprimentos,"O sistema bloqueia o pedido de novos leitores biométricos alegando cota excedida, mas a nossa unidade passou por ampliação recente e dobrou o número de guichês.","1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Suprimentos
+3. Resumo Executivo: O sistema bloqueia a solicitação de novos leitores biométricos por cota excedida, ignorando a recente ampliação da unidade que dobrou o número de guichês.
+4. Ação Operacional Recomendada: Encaminhar o caso para revisão da cota de suprimentos da unidade, justificando a necessidade com base na ampliação física recente.",291,102,0.462,5.97e-5
+3,qwen/qwen3.8-27b,Intermediario,INC15,Suprimentos,"O sistema bloqueia o pedido de novos leitores biométricos alegando cota excedida, mas a nossa unidade passou por ampliação recente e dobrou o número de guichês.","1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Suprimentos
+3. Resumo Executivo: Bloqueio no sistema para aquisição de leitores biométricos devido à cota excedida, apesar da ampliação recente da unidade.
+4. Ação Operacional Recomendada: Encaminhar o caso ao gestor de suprimentos ou ao suporte do sistema de compras para revisão da cota da unidade, informando a ampliação realizada.",291,96,0.449,5.79e-5
+2,qwen/qwen3.8-27b,Intermediario,INC19,Suprimentos,Consulta de rotina: qual é a janela mensal padrão para abertura de pedidos ordinários de suprimentos de papelaria para agências do interior?,"1. Severidade/Sentimento: Neutro
+2. Categoria Logística: Suprimentos
+3. Resumo Executivo: Consulta sobre a janela mensal padrão para abertura de pedidos de papelaria em agências do interior.
+4. Ação Operacional Recomendada: Encaminhar a equipe de Suprimentos para fornecer a informação oficial, pois o relato não contém dados sobre o calendário vigente.",280,82,0.772,5.259999999999999e-5
+3,qwen/qwen3.8-27b,Intermediario,INC19,Suprimentos,Consulta de rotina: qual é a janela mensal padrão para abertura de pedidos ordinários de suprimentos de papelaria para agências do interior?,"1. Severidade/Sentimento: Neutro
+2. Categoria Logística: Suprimentos
+3. Resumo Executivo: Consulta sobre a janela mensal padrão para abertura de pedidos de papelaria para agências do interior.
+4. Ação Operacional Recomendada: Encaminhar ao setor responsável pela gestão de suprimentos para consulta da política vigente, pois a informação específica não consta no relato.",280,82,0.863,5.259999999999999e-5
+1,qwen/qwen3.8-27b,Intermediario,INC04,SLA/Atendimento,A transportadora homologada tentou entregar o lote de cartões fora do horário comercial da agência e marcou o chamado como concluído sem recebedor.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Transporte de Bens/TI
+3. Resumo Executivo: A transportadora homologada realizou a entrega de cartões fora do horário comercial e registrou o chamado como concluído sem a confirmação de recebimento.
+4. Ação Operacional Recomendada: Encaminhar o caso para a área de gestão de fornecedores para análise da não conformidade no registro de entrega e verificação do protocolo de recebimento da agência.",283,102,0.481,5.89e-5
+2,qwen/qwen3.8-27b,Intermediario,INC04,SLA/Atendimento,A transportadora homologada tentou entregar o lote de cartões fora do horário comercial da agência e marcou o chamado como concluído sem recebedor.,"1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Transporte de Bens/TI
+3. Resumo Executivo: A transportadora homologada tentou entregar cartões fora do horário comercial e encerrou o chamado sem a confirmação de recebimento.
+4. Ação Operacional Recomendada: Abrir chamado de não conformidade com a transportadora para reabertura do lote e reprogramação da entrega dentro do horário comercial, exigindo comprovação de recebimento.",283,100,0.545,5.8299999999999994e-5
+3,qwen/qwen3.8-27b,Intermediario,INC04,SLA/Atendimento,A transportadora homologada tentou entregar o lote de cartões fora do horário comercial da agência e marcou o chamado como concluído sem recebedor.,"1. Severidade/Sentimento: Crítico
+2. Categoria Logística: Transporte de Bens/TI
+3. Resumo Executivo: A transportadora homologada tentou entregar cartões fora do horário comercial e encerrou o chamado sem a confirmação de recebimento.
+4. Ação Operacional Recomendada: Encaminhar o caso para a gestão de fornecedores para análise da não conformidade no protocolo de entrega e solicitação de reabertura do chamado para regularização do recebimento.",283,100,0.634,5.8299999999999994e-5
+2,qwen/qwen3.8-27b,Intermediario,INC08,SLA/Atendimento,"Parabéns pelo novo visual do portal de rastreamento, ficou muito moderno; pena que meu malote com contratos assinados está parado no status 'em triagem' há quatro dias sem ninguém responder o chamado.","1. Negativo
+2. Correspondência/Malote
+3. Cliente elogia o visual do portal, mas relata que um malote com contratos assinados está parado no status ""em triagem"" há quatro dias, sem resposta ao chamado.
+4. Encaminhar imediatamente para a equipe de triagem de correspondência para investigação do atraso e resposta ao chamado aberto, pois não há informações no relato sobre o motivo da parada ou o canal específico do chamado.",296,98,0.466,5.9e-5
+3,qwen/qwen3.8-27b,Intermediario,INC08,SLA/Atendimento,"Parabéns pelo novo visual do portal de rastreamento, ficou muito moderno; pena que meu malote com contratos assinados está parado no status 'em triagem' há quatro dias sem ninguém responder o chamado.","1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Cliente elogia o visual do portal, mas relata que um malote com contratos assinados está parado no status ""em triagem"" há quatro dias sem resposta ao chamado.
+4. Ação Operacional Recomendada: Encaminhar o chamado para a equipe de triagem de malotes para verificação imediata do status e resolução da pendência, informando a ausência de detalhes sobre o protocolo específico de rastreamento no relato.",296,118,0.507,6.5e-5
+1,qwen/qwen3.8-27b,Intermediario,INC12,SLA/Atendimento,Gostaria de elogiar a equipe de logística especial pela agilidade na mudança do mobiliário da sala de reuniões ontem; tudo foi entregue antes do prazo e sem avarias.,"1. Severidade/Sentimento: Positivo
+2. Categoria Logística: Transporte de Bens/TI
+3. Resumo Executivo: Elogio à equipe de logística pela agilidade na mudança de mobiliário de sala de reuniões, com entrega antecipada e sem avarias.
+4. Ação Operacional Recomendada: Registrar o feedback positivo no sistema de qualidade e encaminhar o reconhecimento à gestão da equipe de logística para reforço de boas práticas.",289,95,0.543,5.7400000000000006e-5
+2,qwen/qwen3.8-27b,Intermediario,INC12,SLA/Atendimento,Gostaria de elogiar a equipe de logística especial pela agilidade na mudança do mobiliário da sala de reuniões ontem; tudo foi entregue antes do prazo e sem avarias.,"1. Severidade/Sentimento: Positivo
+2. Categoria Logística: Transporte de Bens/TI
+3. Resumo Executivo: Elogio à equipe de logística pela agilidade e integridade na mudança de mobiliário da sala de reuniões, entregue antes do prazo.
+4. Ação Operacional Recomendada: Registrar o feedback positivo no sistema de qualidade e comunicar o reconhecimento à equipe de logística envolvida.",289,86,0.434,5.47e-5
+1,qwen/qwen3.8-27b,Intermediario,INC16,SLA/Atendimento,"O motorista responsável pela coleta de malotes da rota oeste não possui crachá de identificação atualizado, o que gerou bloqueio na portaria do edifício corporativo.","1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: Motorista da rota oeste foi bloqueado na portaria devido à falta de crachá atualizado, impedindo a coleta de malotes.
+4. Ação Operacional Recomendada: Encaminhar o caso ao setor responsável pela gestão de acessos e identificação para regularização imediata do crachá do motorista, garantindo a continuidade da operação de coleta.",288,103,1.177,5.97e-5
+2,qwen/qwen3.8-27b,Intermediario,INC16,SLA/Atendimento,"O motorista responsável pela coleta de malotes da rota oeste não possui crachá de identificação atualizado, o que gerou bloqueio na portaria do edifício corporativo.","1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: O motorista da rota oeste foi bloqueado na portaria do edifício corporativo devido à ausência de crachá de identificação atualizado, impedindo a coleta de malotes.
+4. Ação Operacional Recomendada: Encaminhar o caso ao setor responsável pela gestão de acessos e identificação para regularização imediata do crachá do motorista, garantindo a continuidade da operação de coleta.",288,110,0.592,6.18e-5
+3,qwen/qwen3.8-27b,Intermediario,INC16,SLA/Atendimento,"O motorista responsável pela coleta de malotes da rota oeste não possui crachá de identificação atualizado, o que gerou bloqueio na portaria do edifício corporativo.","1. Severidade/Sentimento: Negativo
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: O motorista da rota oeste foi bloqueado na portaria por não possuir crachá de identificação atualizado, impedindo a coleta de malotes.
+4. Ação Operacional Recomendada: Encaminhar a solicitação ao setor responsável pela emissão de credenciais para atualização imediata do crachá do motorista, permitindo a liberação na portaria.",288,104,0.482,6.0e-5
+2,qwen/qwen3.8-27b,Intermediario,INC20,SLA/Atendimento,O SLA de atendimento para chamados de extravio de malote já venceu há 48 horas e não houve atualização da transportadora nem retorno da central de suporte.,"1. Severidade/Sentimento: Crítico
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: O SLA para chamados de extravio de malote está vencido há 48 horas, sem atualizações da transportadora ou retorno da central de suporte.
+4. Ação Operacional Recomendada: Escalar imediatamente o chamado para a gestão de fornecedores e acionar a central de suporte para obter status atualizado, dado o descumprimento crítico do prazo.",287,106,0.666,6.05e-5
+3,qwen/qwen3.8-27b,Intermediario,INC20,SLA/Atendimento,O SLA de atendimento para chamados de extravio de malote já venceu há 48 horas e não houve atualização da transportadora nem retorno da central de suporte.,"1. Severidade/Sentimento: Crítico
+2. Categoria Logística: Correspondência/Malote
+3. Resumo Executivo: O SLA para chamados de extravio de malote está vencido há 48 horas, sem atualizações da transportadora ou retorno da central de suporte.
+4. Ação Operacional Recomendada: Escalar imediatamente o chamado para a gestão de fornecedores da transportadora e para a liderança da central de suporte para exigir resposta imediata, dado o descumprimento do SLA.",287,110,0.621,6.170000000000001e-5
+1,openai/gpt-oss-20b,Economico,INC01,Correspondência/Malote,O malote diário com documentos de abertura de conta da agência Sul não foi coletado no horário previsto das 16h.,"1. Negativo  
+2. Correspondência/Malote  
+3. Malote diário de abertura de conta da agência Sul não coletado às 16h, causando atraso no processamento de documentos.  
+4. Verificar com a transportadora responsável a causa do atraso, registrar ocorrência e ajustar o cronograma de coleta para evitar recorrência.",322,335,0.589,0.00012465
+2,openai/gpt-oss-20b,Economico,INC01,Correspondência/Malote,O malote diário com documentos de abertura de conta da agência Sul não foi coletado no horário previsto das 16h.,"1. Negativo  
+2. Correspondência/Malote  
+3. Malote diário com documentos de abertura de conta da agência Sul não coletado no horário previsto (16h).  
+4. Verificar com a transportadora a causa da falha, reagendar a coleta e registrar ocorrência.",322,271,0.587,0.00010544999999999999
+3,openai/gpt-oss-20b,Economico,INC01,Correspondência/Malote,O malote diário com documentos de abertura de conta da agência Sul não foi coletado no horário previsto das 16h.,"1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Correspondência/Malote  
+3. Resumo Executivo: Malote diário de abertura de conta da agência Sul não coletado às 16h. Isso pode atrasar processos de abertura de conta.  
+4. Ação Operacional Recomendada: Verificar a rota e horário de coleta, comunicar a transportadora responsável e registrar o incidente no sistema de SLA para análise de causa raiz.",322,478,0.754,0.00016755
+1,openai/gpt-oss-20b,Economico,INC05,Correspondência/Malote,"Precisamos enviar hoje até as 17h o dossiê físico original referente ao ofício judicial nº 4029/2026 para o departamento jurídico da matriz, pois o prazo processual vence amanhã às 9h.","1. Severidade/Sentimento: Crítico  
+2. Categoria Logística: Correspondência/Malote  
+3. Resumo Executivo: Urgente envio de dossiê físico original do ofício judicial nº 4029/2026 ao departamento jurídico da matriz até 17h, prazo processual amanhã às 9h.  
+4. Ação Operacional Recom",343,500,0.899,0.000175725
+2,openai/gpt-oss-20b,Economico,INC05,Correspondência/Malote,"Precisamos enviar hoje até as 17h o dossiê físico original referente ao ofício judicial nº 4029/2026 para o departamento jurídico da matriz, pois o prazo processual vence amanhã às 9h.","1. Crítico  
+2. Correspondência/Malote  
+3. Urgente envio do dossiê físico original do ofício judicial nº 4029/2026 ao jurídico da matriz, prazo processual amanhã às 9h",343,500,0.792,0.000175725
+3,openai/gpt-oss-20b,Economico,INC05,Correspondência/Malote,"Precisamos enviar hoje até as 17h o dossiê físico original referente ao ofício judicial nº 4029/2026 para o departamento jurídico da matriz, pois o prazo processual vence amanhã às 9h.","1. Severidade/Sentimento: Crítico  
+2. Categoria Logística: Correspondência/Malote  
+3. Resumo Executivo: Entrega de dossiê original do ofício judicial nº 4029/2026 ao jurídico da matriz até 17h.  
+4. Ação Operacional Recomendada: Confirmar disponibilidade de transportador interno, preparar embalagem segura, registrar saída no sistema de rastreamento e notificar o jurídico sobre a entrega prevista.",343,317,0.808,0.00012082499999999998
+1,openai/gpt-oss-20b,Economico,INC09,Correspondência/Malote,O código de rastreio do Sedex corporativo gerado pelo portal retorna como inválido no site dos Correios desde ontem à tarde.,"1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Correspondência/Malote  
+3. Resumo Executivo: Código de rastreio do Sedex corporativo aparece inválido no site dos Correios, impedindo o acompanhamento da remessa.  
+4. Ação Operacional Recomendada: Verificar no portal se o código foi gerado corretamente; caso o problema persista, encaminhar ao suporte técnico do portal para reemissão do código ou contato direto com os Correios para correção.",326,398,0.679,0.00014385
+2,openai/gpt-oss-20b,Economico,INC09,Correspondência/Malote,O código de rastreio do Sedex corporativo gerado pelo portal retorna como inválido no site dos Correios desde ontem à tarde.,"1. Negativo  
+2. Correspondência/Malote  
+3. Código de rastreio do Sedex corporativo aparece inválido no site dos Correios, impedindo o acompanhamento da entrega.  
+4. Solicitar à equipe de TI a verificação do código gerado; se persistir, entrar em contato com os Correios para validar o código e registrar a ocorrência no sistema interno.",326,370,0.636,0.00013544999999999999
+3,openai/gpt-oss-20b,Economico,INC09,Correspondência/Malote,O código de rastreio do Sedex corporativo gerado pelo portal retorna como inválido no site dos Correios desde ontem à tarde.,"1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Correspondência/Malote  
+3. Resumo Executivo: Código de rastreio do Sedex corporativo aparece inválido no site dos Correios, impedindo o acompanhamento da entrega.  
+4. Ação Operacional Recomendada: Contatar o suporte do portal de emissão de rastreio para confirmar a validade do código e, se necessário, solicitar reemissão; registrar o incidente no sistema de acompanhamento de SLA.",326,413,0.732,0.00014835
+1,openai/gpt-oss-20b,Economico,INC13,Correspondência/Malote,Um envelope lacrado destinado à diretoria regional foi entregue por engano na agência do centro e precisa ser redirecionado ainda hoje.,"1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Correspondência/Malote  
+3. Resumo Executivo: Envelope lacrado destinado à diretoria regional entregue erroneamente na agência do centro; requer redirecionamento imediato.  
+4. Ação Operacional Recomendada: Confirmar recebimento do envelope na agência do centro, redirecionar via serviço interno de entrega para a diretoria regional, registrar ocorrência no sistema de rastreamento e notificar a diretoria sobre a correção.",325,451,0.835,0.000159675
+2,openai/gpt-oss-20b,Economico,INC13,Correspondência/Malote,Um envelope lacrado destinado à diretoria regional foi entregue por engano na agência do centro e precisa ser redirecionado ainda hoje.,"1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Correspondência/Malote  
+3. Resumo Executivo: Envelope lacrado destinado à diretoria regional foi entregue na agência do centro por engano e precisa ser redirecionado ainda hoje.  
+4. Ação Operacional Recomendada: Verificar o protocolo interno de entrega de correspondências, localizar o envelope na agência do centro, encaminhá‑lo imediatamente para a agência correta ou para a diretoria regional, e registrar a ocorrência no sistema de rastreamento de correspondências, garantindo confirmação de recebimento.",325,453,0.746,0.000160275
+3,openai/gpt-oss-20b,Economico,INC13,Correspondência/Malote,Um envelope lacrado destinado à diretoria regional foi entregue por engano na agência do centro e precisa ser redirecionado ainda hoje.,,325,500,0.871,0.000174375
+1,openai/gpt-oss-20b,Economico,INC17,Correspondência/Malote,Esqueci minha senha de acesso ao sistema de folha de pagamento e meu token físico parou de funcionar; preciso que a logística libere meu login ou envie um técnico de TI aqui na mesa.,,337,500,0.779,0.00017527500000000002
+2,openai/gpt-oss-20b,Economico,INC17,Correspondência/Malote,Esqueci minha senha de acesso ao sistema de folha de pagamento e meu token físico parou de funcionar; preciso que a logística libere meu login ou envie um técnico de TI aqui na mesa.,,337,500,0.854,0.00017527500000000002
+3,openai/gpt-oss-20b,Economico,INC17,Correspondência/Malote,Esqueci minha senha de acesso ao sistema de folha de pagamento e meu token físico parou de funcionar; preciso que a logística libere meu login ou envie um técnico de TI aqui na mesa.,,337,500,0.874,0.00017527500000000002
+1,openai/gpt-oss-20b,Economico,INC02,Transporte de Bens/TI,Solicitação de transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional na próxima terça-feira.,"1. Neutro  
+2. Transporte de Bens/TI  
+3. Transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional na próxima terça-feira.  
+4. Coordenar com a equipe de logística para agendar transporte, verificar disponibilidade de veículo e equipe de montagem, e registrar a transferência no sistema de ativos.",326,496,0.87,0.00017324999999999998
+2,openai/gpt-oss-20b,Economico,INC02,Transporte de Bens/TI,Solicitação de transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional na próxima terça-feira.,"1. Severidade/Sentimento: Neutro  
+2. Categoria Logística: Transporte de Bens/TI  
+3. Resumo Executivo: Transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional na próxima terça-feira.  
+4. Ação Operacional Recomendada: Confirmar disponibilidade de transporte, preparar lista de equipamentos, coordenar com a equipe de TI da nova unidade, atualizar registro de ativos e garantir a chegada dos itens na terça-feira.",326,344,0.733,0.00012765
+3,openai/gpt-oss-20b,Economico,INC02,Transporte de Bens/TI,Solicitação de transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional na próxima terça-feira.,"1. Neutro  
+2. Transporte de Bens/TI  
+3. Transferência de 12 estações de trabalho e 6 monitores do prédio administrativo para a nova unidade regional na próxima terça-feira.  
+4. Confirmar disponibilidade de equipe de transporte, agendar veículo, preparar documentação de inventário e garantir que a nova unidade esteja preparada para receber os equipamentos na data solicitada.",326,452,0.774,0.00016005
+1,openai/gpt-oss-20b,Economico,INC06,Transporte de Bens/TI,"Precisamos recolher 4 servidores rack desativados na sala técnica do 3º andar para descarte certificado, mas o formulário exige número de patrimônio que está ilegível em um dos equipamentos.","1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Transporte de Bens/TI  
+3. Resumo Executivo: Solicita recolhimento de 4 servidores rack para descarte, mas falta número de patrimônio em um equipamento, impedindo preenchimento do formulário.  
+4. Ação Operacional Recomendada: Limitação: número de patrimônio ilegível. Recomenda-se consultar o inventário interno ou solicitar ao setor de TI a identificação do patrimônio antes de prosseguir com a coleta.",337,451,0.681,0.00016057499999999999
+2,openai/gpt-oss-20b,Economico,INC06,Transporte de Bens/TI,"Precisamos recolher 4 servidores rack desativados na sala técnica do 3º andar para descarte certificado, mas o formulário exige número de patrimônio que está ilegível em um dos equipamentos.","1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Transporte de Bens/TI  
+3. Resumo Executivo: Solicitação de recolhimento de 4 servidores rack para descarte certificado, porém falta número de patrimônio em um equipamento, impedindo preenchimento do formulário.  
+4. Ação Operacional Recomendada: Verificar o número de patrimônio com a equipe de TI responsável pela sala técnica; se não for possível, registrar exceção no formulário e solicitar autorização para descarte sem número, documentando a situação.",337,480,0.817,0.000169275
+3,openai/gpt-oss-20b,Economico,INC06,Transporte de Bens/TI,"Precisamos recolher 4 servidores rack desativados na sala técnica do 3º andar para descarte certificado, mas o formulário exige número de patrimônio que está ilegível em um dos equipamentos.",,337,500,0.727,0.00017527500000000002
+1,openai/gpt-oss-20b,Economico,INC10,Transporte de Bens/TI,"Além de o portal apresentar erro 500 ao anexar a nota fiscal de transferência dos notebooks, o pedido de toners da semana passada ainda não chegou e a equipe da agência está sem impressora e sem equipamento para os novos estagiários.",,346,500,0.771,0.00017595
+2,openai/gpt-oss-20b,Economico,INC10,Transporte de Bens/TI,"Além de o portal apresentar erro 500 ao anexar a nota fiscal de transferência dos notebooks, o pedido de toners da semana passada ainda não chegou e a equipe da agência está sem impressora e sem equipamento para os novos estagiários.",,346,500,1.148,0.00017595
+3,openai/gpt-oss-20b,Economico,INC10,Transporte de Bens/TI,"Além de o portal apresentar erro 500 ao anexar a nota fiscal de transferência dos notebooks, o pedido de toners da semana passada ainda não chegou e a equipe da agência está sem impressora e sem equipamento para os novos estagiários.",,346,500,0.756,0.00017595
+1,openai/gpt-oss-20b,Economico,INC14,Transporte de Bens/TI,Vou me mudar de apartamento no próximo sábado e gostaria de saber se posso agendar o caminhão da transportadora parceira do banco pelo portal para levar minha geladeira e sofá.,"1. Neutro  
+2. Transporte de Bens/TI  
+3. Solicita agendamento de caminhão para transportar geladeira e sofá.  
+4. Verificar no portal se o cliente pode agendar; orientar a usar o portal ou, se não houver opção, encaminhar ao contato da transportadora parceira.",333,316,0.647,0.000119775
+2,openai/gpt-oss-20b,Economico,INC14,Transporte de Bens/TI,Vou me mudar de apartamento no próximo sábado e gostaria de saber se posso agendar o caminhão da transportadora parceira do banco pelo portal para levar minha geladeira e sofá.,"1. Severidade/Sentimento: Neutro  
+2. Categoria Logística: Transporte de Bens/TI  
+3. Resumo Executivo: Cliente deseja saber se pode agendar caminhão parceiro do banco via portal para transportar geladeira e sofá.  
+4. Ação Operacional Recomendada: Verificar no portal se o cliente tem acesso ao agendamento de caminhão; se não, encaminhar ao suporte de logística para instruções de acesso ou agendamento manual.",333,384,0.773,0.00014017499999999998
+3,openai/gpt-oss-20b,Economico,INC14,Transporte de Bens/TI,Vou me mudar de apartamento no próximo sábado e gostaria de saber se posso agendar o caminhão da transportadora parceira do banco pelo portal para levar minha geladeira e sofá.,"1. Neutro  
+2. Transporte de Bens/TI  
+3. Cliente solicita agendar caminhão da transportadora parceira do banco para transportar geladeira e sofá.  
+4. Encaminhar ao setor de Transporte de Bens para confirmar disponibilidade na data solicitada e orientar o cliente a usar o portal do banco para efetuar o agendamento.",333,431,0.681,0.00015427499999999997
+1,openai/gpt-oss-20b,Economico,INC18,Transporte de Bens/TI,"Solicitamos a movimentação de um cofre de 350 kg entre andares, mas o elevador de carga está em manutenção e não há opção no portal para indicar necessidade de içamento ou equipe extra.",,339,500,0.85,0.00017542500000000002
+2,openai/gpt-oss-20b,Economico,INC18,Transporte de Bens/TI,"Solicitamos a movimentação de um cofre de 350 kg entre andares, mas o elevador de carga está em manutenção e não há opção no portal para indicar necessidade de içamento ou equipe extra.",,339,500,0.82,0.00017542500000000002
+3,openai/gpt-oss-20b,Economico,INC18,Transporte de Bens/TI,"Solicitamos a movimentação de um cofre de 350 kg entre andares, mas o elevador de carga está em manutenção e não há opção no portal para indicar necessidade de içamento ou equipe extra.",,339,500,0.788,0.00017542500000000002
+1,openai/gpt-oss-20b,Economico,INC03,Suprimentos,O estoque de bobinas térmicas para terminais de autoatendimento e papel A4 está abaixo do nível mínimo; o pedido feito há 5 dias ainda consta como pendente.,"1. Negativo  
+2. Suprimentos  
+3. Estoque de bobinas térmicas e papel A4 está abaixo do nível mínimo; pedido de reposição pendente há 5 dias.  
+4. Solicitar atualização do status do pedido junto ao fornecedor e, se necessário, abrir ordem de urgência para reposição.",335,300,0.542,0.000115125
+2,openai/gpt-oss-20b,Economico,INC03,Suprimentos,O estoque de bobinas térmicas para terminais de autoatendimento e papel A4 está abaixo do nível mínimo; o pedido feito há 5 dias ainda consta como pendente.,"1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Suprimentos  
+3. Resumo Executivo: Estoque de bobinas térmicas e papel A4 abaixo do mínimo; pedido de reposição pendente há 5 dias.  
+4. Ação Operacional Recomendada: Solicitar atualização do status do pedido junto ao fornecedor, reativar o processo de reposição e comunicar a equipe de compras e logística para garantir o reabastecimento antes do nível crítico.",335,372,0.848,0.000136725
+3,openai/gpt-oss-20b,Economico,INC03,Suprimentos,O estoque de bobinas térmicas para terminais de autoatendimento e papel A4 está abaixo do nível mínimo; o pedido feito há 5 dias ainda consta como pendente.,"1. Negativo  
+2. Suprimentos  
+3. Estoque de bobinas térmicas e papel A4 abaixo do mínimo; pedido pendente há 5 dias.  
+4. Solicitar atualização do status do pedido ao fornecedor e, se necessário, registrar nova ordem de compra para restabelecer o estoque mínimo.",335,392,0.682,0.00014272499999999999
+1,openai/gpt-oss-20b,Economico,INC07,Suprimentos,Recebemos 20 caixas de envelopes de segurança com lacre violado na remessa desta manhã e precisamos de reposição imediata para o fechamento do caixa.,"1. Severidade/Sentimento: Crítico  
+2. Categoria Logística: Suprimentos  
+3. Resumo Executivo: 20 caixas de envelopes de segurança com lacre violado foram recebidas; necessidade urgente de reposição para fechamento do caixa.  
+4. Ação Operacional Recomendada: Verificar estoque interno, solicitar reposição ao fornecedor de segurança, registrar lacre violado e comunicar a equipe de segurança.",330,408,0.712,0.00014714999999999997
+2,openai/gpt-oss-20b,Economico,INC07,Suprimentos,Recebemos 20 caixas de envelopes de segurança com lacre violado na remessa desta manhã e precisamos de reposição imediata para o fechamento do caixa.,"1. Crítico  
+2. Suprimentos  
+3. 20 caixas de envelopes de segurança com lacre violado; necessidade de reposição imediata para fechamento do caixa.  
+4. Encaminhar solicitação de reposição ao setor de suprimentos e registrar ocorrência no sistema de controle de estoque.",330,440,0.68,0.00015675
+3,openai/gpt-oss-20b,Economico,INC07,Suprimentos,Recebemos 20 caixas de envelopes de segurança com lacre violado na remessa desta manhã e precisamos de reposição imediata para o fechamento do caixa.,"1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Suprimentos  
+3. Resumo Executivo: 20 caixas de envelopes de segurança chegaram com lacre violado; necessidade de reposição imediata para fechamento do caixa.  
+4. Ação Operacional Recomendada: Solicitar reposição urgente ao fornecedor, atualizar controle de estoque e registrar incidente de lacre violado.",330,453,0.709,0.00016065
+1,openai/gpt-oss-20b,Economico,INC11,Suprimentos,"Fizemos a solicitação trimestral de materiais de escritório, mas vieram apenas as canetas e pastas; os cartuchos de toner foram cortados sem justificativa no sistema.","1. Negativo  
+2. Suprimentos  
+3. Solicitação trimestral de materiais de escritório incompleta. Cartuchos de toner foram cortados sem justificativa.  
+4. Solicitar justificativa do corte ao setor de",335,500,0.881,0.000175125
+2,openai/gpt-oss-20b,Economico,INC11,Suprimentos,"Fizemos a solicitação trimestral de materiais de escritório, mas vieram apenas as canetas e pastas; os cartuchos de toner foram cortados sem justificativa no sistema.","1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Suprimentos  
+3. Resumo Executivo: Solicitação trimestral de materiais de escritório incompleta. Cartuchos de toner foram cortados sem justificativa.  
+4. Ação Operacional Recomendada: Verificar no sistema a razão do corte dos cartuchos, solicitar reemissão dos itens faltantes junto ao fornecedor e registrar a ocorrência no controle de suprimentos.",335,375,0.65,0.000137625
+3,openai/gpt-oss-20b,Economico,INC11,Suprimentos,"Fizemos a solicitação trimestral de materiais de escritório, mas vieram apenas as canetas e pastas; os cartuchos de toner foram cortados sem justificativa no sistema.","1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Suprimentos  
+3. Resumo Executivo: Solicitação trimestral de materiais de escritório incompleta, com cartuchos de toner cortados sem justificativa.  
+4. Ação Operacional Recomendada: Solicitar ao setor de suprimentos a justificativa do corte e reprocessar o pedido para inclusão dos cartuchos de toner.",335,426,1.194,0.00015292500000000002
+1,openai/gpt-oss-20b,Economico,INC15,Suprimentos,"O sistema bloqueia o pedido de novos leitores biométricos alegando cota excedida, mas a nossa unidade passou por ampliação recente e dobrou o número de guichês.","1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Suprimentos  
+3. Resumo Executivo: Sistema bloqueia pedido de leitores biométricos por cota excedida, apesar de expansão que dobrou guichês.  
+4. Ação Operacional Recomendada: Solicitar revisão da cota de leitores biométricos junto ao setor responsável e, se necessário, solicitar aumento de cota para atender à expansão da unidade.",335,480,0.79,0.000169125
+2,openai/gpt-oss-20b,Economico,INC15,Suprimentos,"O sistema bloqueia o pedido de novos leitores biométricos alegando cota excedida, mas a nossa unidade passou por ampliação recente e dobrou o número de guichês.","1. Negativo  
+2. Suprimentos  
+3. Sistema bloqueia pedido de leitores biométricos por cota excedida, apesar",335,500,0.743,0.000175125
+3,openai/gpt-oss-20b,Economico,INC15,Suprimentos,"O sistema bloqueia o pedido de novos leitores biométricos alegando cota excedida, mas a nossa unidade passou por ampliação recente e dobrou o número de guichês.",,335,500,0.757,0.000175125
+1,openai/gpt-oss-20b,Economico,INC19,Suprimentos,Consulta de rotina: qual é a janela mensal padrão para abertura de pedidos ordinários de suprimentos de papelaria para agências do interior?,"1. Neutro  
+2. Suprimentos  
+3. Consulta sobre a janela mensal padrão para abertura de pedidos de papelaria nas agências do interior.  
+4. Não há informação no relato; encaminhar ao setor de suprimentos para obter a janela mensal padrão.",325,390,0.807,0.000141375
+2,openai/gpt-oss-20b,Economico,INC19,Suprimentos,Consulta de rotina: qual é a janela mensal padrão para abertura de pedidos ordinários de suprimentos de papelaria para agências do interior?,"1. Neutro  
+2. Suprimentos  
+3. Pergunta sobre a janela mensal padrão para abertura de pedidos de papelaria nas agências do interior.  
+4. A informação não está no relato; recomenda‑se consultar o manual de procedimentos de compras ou contatar o setor de suprimentos para obter a janela correta.",325,467,0.837,0.000164475
+3,openai/gpt-oss-20b,Economico,INC19,Suprimentos,Consulta de rotina: qual é a janela mensal padrão para abertura de pedidos ordinários de suprimentos de papelaria para agências do interior?,"1. Neutro  
+2. Suprimentos  
+3. Consulta sobre a janela mensal padrão para abertura de pedidos ordinários de suprimentos de papelaria para agências do interior.  
+4. Verificar no manual de procedimentos de compras ou no sistema de compras a janela mensal padrão e informar ao solicitante; se não houver informação, encaminhar ao setor de Compras para confirmação.",325,425,0.96,0.000151875
+1,openai/gpt-oss-20b,Economico,INC04,SLA/Atendimento,A transportadora homologada tentou entregar o lote de cartões fora do horário comercial da agência e marcou o chamado como concluído sem recebedor.,"1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Transporte de Bens/TI  
+3. Resumo Executivo: Transportadora homologada tentou entregar lote de cartões fora do horário comercial da agência e marcou chamado concluído sem recebedor.  
+4. Ação Operacional Recomendada: Solicitar à transportadora a nova entrega dentro do horário comercial, confirmar o recebimento na agência, atualizar o chamado no sistema e registrar a",326,500,0.855,0.00017444999999999998
+2,openai/gpt-oss-20b,Economico,INC04,SLA/Atendimento,A transportadora homologada tentou entregar o lote de cartões fora do horário comercial da agência e marcou o chamado como concluído sem recebedor.,"1. Negativo  
+2. Transporte",326,500,0.917,0.00017444999999999998
+3,openai/gpt-oss-20b,Economico,INC04,SLA/Atendimento,A transportadora homologada tentou entregar o lote de cartões fora do horário comercial da agência e marcou o chamado como concluído sem recebedor.,"1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Transporte de Bens/TI  
+3. Resumo Executivo: Transportadora homologada tentou entregar lote de cartões fora do horário comercial da agência e marcou chamado como concluído sem recebedor.  
+4. Ação Operacional Recomendada: Solicitar nova tentativa de entrega dentro do horário comercial, registrar a ocorrência no sistema de SLA e confirmar o recebimento com a agência.",326,409,0.685,0.00014714999999999997
+1,openai/gpt-oss-20b,Economico,INC08,SLA/Atendimento,"Parabéns pelo novo visual do portal de rastreamento, ficou muito moderno; pena que meu malote com contratos assinados está parado no status 'em triagem' há quatro dias sem ninguém responder o chamado.",,340,500,0.746,0.0001755
+2,openai/gpt-oss-20b,Economico,INC08,SLA/Atendimento,"Parabéns pelo novo visual do portal de rastreamento, ficou muito moderno; pena que meu malote com contratos assinados está parado no status 'em triagem' há quatro dias sem ninguém responder o chamado.","1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Malote  
+3. Resumo Executivo: Malote com contratos assinados permanece em status “em triagem” há quatro dias sem resposta.  
+4. Ação Operacional Recomendada: Verificar o status no sistema, abrir chamado de prioridade alta para o setor responsável e acompanhar até a liberação do malote.",340,325,0.558,0.000123
+3,openai/gpt-oss-20b,Economico,INC08,SLA/Atendimento,"Parabéns pelo novo visual do portal de rastreamento, ficou muito moderno; pena que meu malote com contratos assinados está parado no status 'em triagem' há quatro dias sem ninguém responder o chamado.","1. Negativo  
+2. Correspondência/Malote  
+3. Cliente elogia portal, mas reclama malote",340,500,0.885,0.0001755
+1,openai/gpt-oss-20b,Economico,INC12,SLA/Atendimento,Gostaria de elogiar a equipe de logística especial pela agilidade na mudança do mobiliário da sala de reuniões ontem; tudo foi entregue antes do prazo e sem avarias.,"1. Positivo  
+2. Transporte de Bens/TI  
+3. Equipe de logística especial entregou mobiliário da sala de reuniões com agilidade, antes do prazo e sem avarias.  
+4. Registrar elogio no sistema de feedback e reconhecer a equipe em reunião de equipe.",332,458,0.719,0.00016230000000000001
+2,openai/gpt-oss-20b,Economico,INC12,SLA/Atendimento,Gostaria de elogiar a equipe de logística especial pela agilidade na mudança do mobiliário da sala de reuniões ontem; tudo foi entregue antes do prazo e sem avarias.,"1. Positivo  
+2. Transporte de Bens/TI  
+3. Equipe de logística especial entregou o mobiliário da sala de reuniões antes do prazo e sem avarias.  
+4. Registrar elogio no sistema interno de feedback e reconhecer a equipe de logística especial.",332,400,0.651,0.0001449
+3,openai/gpt-oss-20b,Economico,INC12,SLA/Atendimento,Gostaria de elogiar a equipe de logística especial pela agilidade na mudança do mobiliário da sala de reuniões ontem; tudo foi entregue antes do prazo e sem avarias.,"1. Positivo  
+2. Transporte de Bens/TI  
+3. A equipe de logística especial entregou o mobiliário da sala de reuniões antes do prazo e sem avarias.  
+4. Registrar o elogio no sistema de feedback interno, reconhecer a equipe e compartilhar a prática de agilidade com os demais setores de logística.",332,360,0.685,0.0001329
+1,openai/gpt-oss-20b,Economico,INC16,SLA/Atendimento,"O motorista responsável pela coleta de malotes da rota oeste não possui crachá de identificação atualizado, o que gerou bloqueio na portaria do edifício corporativo.",,331,500,0.792,0.00017482499999999998
+2,openai/gpt-oss-20b,Economico,INC16,SLA/Atendimento,"O motorista responsável pela coleta de malotes da rota oeste não possui crachá de identificação atualizado, o que gerou bloqueio na portaria do edifício corporativo.","1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Correspondência/Malote  
+3. Resumo Executivo: Motorista sem crachá atualizado bloqueou a entrada na portaria, impedindo a coleta de malotes na rota oeste.  
+4. Ação Operacional Recomendada: Registrar ocorrência, solicitar atualização imediata do crachá do motorista e comunicar a equipe de segurança do edifício para evitar bloqueios futuros.",331,411,0.709,0.000148125
+3,openai/gpt-oss-20b,Economico,INC16,SLA/Atendimento,"O motorista responsável pela coleta de malotes da rota oeste não possui crachá de identificação atualizado, o que gerou bloqueio na portaria do edifício corporativo.","1. Severidade/Sentimento: Negativo  
+2. Categoria Logística: Correspondência/Malote  
+3. Resumo Executivo: Motorista sem crachá atualizado bloqueou a entrada na portaria, impedindo a coleta de malotes na rota oeste.  
+4. Ação Operacional Recomendada: Verificar e atualizar o crachá do motorista, registrar a ocorrência na portaria e comunicar o setor de segurança para evitar bloqueios futuros.",331,376,0.652,0.000137625
+1,openai/gpt-oss-20b,Economico,INC20,SLA/Atendimento,O SLA de atendimento para chamados de extravio de malote já venceu há 48 horas e não houve atualização da transportadora nem retorno da central de suporte.,,329,500,0.789,0.000174675
+2,openai/gpt-oss-20b,Economico,INC20,SLA/Atendimento,O SLA de atendimento para chamados de extravio de malote já venceu há 48 horas e não houve atualização da transportadora nem retorno da central de suporte.,,329,500,0.773,0.000174675
+3,openai/gpt-oss-20b,Economico,INC20,SLA/Atendimento,O SLA de atendimento para chamados de extravio de malote já venceu há 48 horas e não houve atualização da transportadora nem retorno da central de suporte.,,329,500,0.813,0.000174675
