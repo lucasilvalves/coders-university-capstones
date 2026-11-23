@@ -130,13 +130,13 @@ Para reproduzir condições realistas de auditoria, foi executado o pacote **`Co
 
 * **Objetivo do Teste:** Avaliar a distinção de papéis e obrigações condicionantes em aditivo tripartite.
 * **Entrada Utilizada:**
-  * *Aditivo Tripartite nº 02:* Banco Aurora (Contratante), Translog Nacional (Contratada) e Seguradora Atlântico (Interveniente Anuente). A Contratada comunica sinistros em $24\text{h}$; a Interveniente cobre roubos acima de $\text{R\$} 50.000,00$; a Contratante apenas liquida faturas.
+  * *Aditivo Tripartite nº 02:* Banco Aurora (Contratante), Translog Nacional (Contratada) e Seguradora Atlântico (Interveniente Anuente). A Contratada comunica sinistros em $24\text{h}$; a Interveniente cobre roubos acima de R\$ 50.000,00; a Contratante apenas liquida faturas.
   * *Pergunta:* *"Quem tem a obrigação contratual de comunicar o sinistro em até 24 horas e quem paga a indenização caso uma carga de R\$ 80.000,00 seja roubada?"*
 * **Saída Observada (`resultados_raw.csv`):** O modelo identificou corretamente os papéis principais (Translog comunica; Seguradora paga), mas apresentou **inconsistência na profundidade do alerta jurídico**: a Execução 2 ($293$ tokens) encerrou sem nenhum alerta operacional; a Execução 1 ($395$ tokens) alertou sobre o monitoramento do prazo de $24\text{h}$; e a Execução 3 ($650$ tokens) expandiu para uma análise de direito de regresso que **foi truncada no meio da frase**:
   > *"Nesse cenário, a responsabilidade financeira pelo prejuízo de R\$ 80.000,00 poderia recair sobre a Contratada (...), garantindo que o Banco Aurora não fique exposto a esse risco operacional"* *(Execução 3 — truncada em 650 tokens)*.
 * **Natureza da Falha:** Inconsistência na emissão de alertas de condição suspensiva e truncamento na rodada mais detalhada.
 * **Severidade:** 🟠 **Média-Alta**
-* **Impacto Potencial no Negócio:** Falha no monitoramento do prazo decadencial de $24\text{h}$ para aviso de sinistro caso o analista receba a versão enxuta (Execução 2), podendo resultar na negativa da indenização de $\text{R\$} 80.000,00$.
+* **Impacto Potencial no Negócio:** Falha no monitoramento do prazo decadencial de $24\text{h}$ para aviso de sinistro caso o analista receba a versão enxuta (Execução 2), podendo resultar na negativa da indenização de R\$ 80.000,00.
 * **Mitigação Recomendada:** Extração estruturada de `condicoes_suspensivas` e prazos decadenciais em todo contrato envolvendo apólices de seguro.
 
 ---
